@@ -17,4 +17,7 @@ use App\Http\Controllers\PageController;
 Route::get('/', [App\Http\Controllers\PageController::class, 'index']);
 
 //Rota Pagina inicial Home Page
-Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('frontoffice.pages.index');
+Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('frontoffice.index');
+
+//Rota Pagina Contacto
+Route::get('/contact', [App\Http\Controllers\PageController::class, 'index'])->name('frontoffice.pages.contact');
