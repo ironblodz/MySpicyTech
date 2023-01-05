@@ -96,7 +96,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdown-primary">
-                                            <a class="nav-link text-capitalize font-weight-semibold custom-text-3" href="{{ route('frontoffice.pages.contact') }}">
+                                            <a class="nav-link text-capitalize font-weight-semibold custom-text-3" href="{{ route('frontoffice.contact') }}">
                                                 Contact Us
                                             </a>
                                         </li>

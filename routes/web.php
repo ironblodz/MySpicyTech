@@ -20,7 +20,7 @@ Route::get('/', [App\Http\Controllers\PageController::class, 'index']);
 Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('frontoffice.index');
 
 //Rota Pagina Contacto
-Route::get('/contact', [App\Http\Controllers\PageController::class, 'index'])->name('frontoffice.pages.contact');
+Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('frontoffice.contact');
 
 //Rota Pagina inicial Home Page
 Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->name('frontoffice.about');
