@@ -1,4 +1,3 @@
-
 <header id="header" class="header-transparent header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 1, 'stickyHeaderContainerHeight': 100}">
     <div class="header-body border-top-0 bg-color-dark box-shadow-none">
         <div class="header-container container">
@@ -7,7 +6,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="demo-digital-agency-2.html">
-                                <img alt="Porto" width="139" height="59" src="img/demos/digital-agency-2/logos/logo-1.png">
+                                <img alt="Porto" width="139" height="59" src="{{asset('assets/img/demos/digital-agency-2/logos/logo-1.png')}}">
                             </a>
                         </div>
                     </div>
