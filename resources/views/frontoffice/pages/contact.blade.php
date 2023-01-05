@@ -29,7 +29,7 @@
                             <span class="d-flex flex-column flex-md-row text-center text-md-start px-5 px-md-0 mb-4 mb-md-0 align-items-center custom-text-5 font-weight-medium appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400"><i class="far fa-envelope text-color-primary text-4 me-2" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600"></i> <a href="mailto:mail@domain.com" class="text-color-default">porto@digitalagency.com</a></span>
                             <span class="d-flex flex-column flex-md-row text-center text-md-start px-5 px-md-0 align-items-center custom-text-5 font-weight-medium appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600"><i class="far fa-clock text-color-primary text-4 ms-md-4 me-md-2"></i>Mon - Sat 9:00am - 6:00pm / Sunday - CLOSED</span>
                         </div>
-                        <p class="custom-text-4 text-center appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at massa quam. Maecenas et sem accumsan, dictum arcu eu, consectetur eros. Nulla tortor est, lobortis vestibulum turpis sed, mollis commodo orci.</p>
+                        <p class="custom-text-4 text-center appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">Please provide some details about the nature of your request or question so that we can provide you with the best possible response.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -40,20 +40,20 @@
                         <div class="row px-3">
                             <div class="col-xl-6 me-0 overflow-hidden col-where-you-are-postal">
                                 <div class="row justify-content-end p-relative h-100">
-                                    <img src="{{asset('assets/img/demos/digital-agency-2/contact-us/contact-us-1.jpg')}}" class="img-fluid">
+                                    <img src="{{asset('assets/img/leiria.jpg')}}" class="img-fluid">
                                     <div class="col-lg-6 bg-color-primary d-flex flex-column align-items-center justify-content-center col-where-you-are-postal-text position-relative py-5 py-lg-0">
-                                        <h4 class="text-color-light custom-text-9">Los Angeles</h4>
-                                        <p class="mb-1 text-color-light custom-text-4">123 The Main Street</p>
-                                        <p class="mb-1 text-color-light custom-text-4">Los Angeles, CA 10000</p>
-                                        <p class="mb-0 text-color-light custom-text-4"><a href="tel:+1234567890" class="text-color-light">(123) 456-7890</a></p>
+                                        <h4 class="text-color-light custom-text-9">Leiria</h4>
+                                        <p class="mb-1 text-color-light custom-text-4">Avenida Marquês de Pombal</p>
+                                        <p class="mb-1 text-color-light custom-text-4">2400, Leiria</p>
+                                        <p class="mb-0 text-color-light custom-text-4"><a href="tel:+1234567890" class="text-color-light">(351) 919846123</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6 ms-0 overflow-hidden col-where-you-are-postal">
                                 <div class="row justify-content-end p-relative h-100">
-                                    <img src="{{asset('assets/img/demos/digital-agency-2/contact-us/contact-us-2.jpg')}}" class="img-fluid">
+                                    <img src="{{asset('assets/img/leiriapraia.jpg')}}" class="img-fluid img-thumbnail">
                                     <div class="col-lg-6 bg-color-primary d-flex flex-column align-items-center justify-content-center col-where-you-are-postal-text position-relative py-5 py-lg-0">
-                                        <h4 class="text-color-light custom-text-9">New York</h4>
+                                        <h4 class="text-color-light custom-text-9">Coimbra</h4>
                                         <p class="mb-1 text-color-light custom-text-4">123 The Main Street</p>
                                         <p class="mb-1 text-color-light custom-text-4">New York, NY 10000</p>
                                         <p class="mb-0 text-color-light custom-text-4"><a href="tel:+1234567890" class="text-color-light">(123) 456-7890</a></p>
@@ -114,10 +114,10 @@
                     <div class="col-lg-8">
                         <p class="mb-2 text-color-tertiary custom-text-7 custom-title-with-icon custom-title-with-icon-light appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200"> Contact Us</p>
                         <h4 class="text-color-light font-weight-bold custom-text-10 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-                            
+
                             Transform your ideias   <br/>
                             in online business <br>
-                           
+
 
                         </h4>
                     </div>
