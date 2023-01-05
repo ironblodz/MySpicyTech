@@ -19,12 +19,12 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown-primary">
-                                            <a class="nav-link text-capitalize font-weight-semibold custom-text-3 active" href="demo-digital-agency-2.html">
+                                            <a class="nav-link text-capitalize font-weight-semibold custom-text-3 active" href=" {{route('frontoffice.index') }}" >
                                                 Home
                                             </a>
                                         </li>
                                         <li class="dropdown-primary">
-                                            <a class="nav-link text-capitalize font-weight-semibold custom-text-3" href="demo-digital-agency-2-about-us.html">
+                                            <a class="nav-link text-capitalize font-weight-semibold custom-text-3" href="{{route('frontoffice.about') }}">
                                                 About Us
                                             </a>
                                         </li>
