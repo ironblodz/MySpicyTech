@@ -11,7 +11,7 @@
                         <div class="header-row">
                             <div class="header-logo">
                                 <a href="demo-digital-agency-2.html">
-                                    <img alt="Porto" width="139" height="59" src="img/demos/digital-agency-2/logos/logo-1.png">
+                                    <img alt="Porto" width="139" height="59" src="{{asset('assets/img/demos/digital-agency-2/logos/logo-1.png')}}">
                                 </a>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
 
     <div role="main" class="main">
 
-        <section class="page-header page-header-modern page-header-background bg-color-dark p-relative z-index-1 lazyload" data-bg-src="img/demos/digital-agency-2/bg/page-header-bg.jpg">
+        <section class="page-header page-header-modern page-header-background bg-color-dark p-relative z-index-1 lazyload" data-bg-src="{{asset('assets/img/demos/digital-agency-2/bg/page-header-bg.jpg')}}">
             <span class="custom-circle custom-circle-1 bg-color-light custom-circle-blur appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400"></span>
             <span class="custom-circle custom-circle-2 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="500"></span>
             <span class="custom-circle custom-circle-3 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="600"></span>
@@ -166,7 +166,7 @@
                         <div class="row px-3">
                             <div class="col-xl-6 me-0 overflow-hidden col-where-you-are-postal">
                                 <div class="row justify-content-end p-relative h-100">
-                                    <img src="img/demos/digital-agency-2/contact-us/contact-us-1.jpg" class="img-fluid">
+                                    <img src="{{asset('')}}demos/digital-agency-2/contact-us/contact-us-1.jpg" class="img-fluid">
                                     <div class="col-lg-6 bg-color-primary d-flex flex-column align-items-center justify-content-center col-where-you-are-postal-text position-relative py-5 py-lg-0">
                                         <h4 class="text-color-light custom-text-9">Los Angeles</h4>
                                         <p class="mb-1 text-color-light custom-text-4">123 The Main Street</p>
@@ -177,7 +177,7 @@
                             </div>
                             <div class="col-xl-6 ms-0 overflow-hidden col-where-you-are-postal">
                                 <div class="row justify-content-end p-relative h-100">
-                                    <img src="img/demos/digital-agency-2/contact-us/contact-us-2.jpg" class="img-fluid">
+                                    <img src="{{asset('')}}demos/digital-agency-2/contact-us/contact-us-2.jpg" class="img-fluid">
                                     <div class="col-lg-6 bg-color-primary d-flex flex-column align-items-center justify-content-center col-where-you-are-postal-text position-relative py-5 py-lg-0">
                                         <h4 class="text-color-light custom-text-9">New York</h4>
                                         <p class="mb-1 text-color-light custom-text-4">123 The Main Street</p>
@@ -232,7 +232,7 @@
             </div>
         </section>
 
-        <section class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden" style="background-image: url('img/demos/digital-agency-2/bg/bg-2.jpg'); background-size: cover; background-position: center;">
+        <section class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden" style="background-image: url('assets/img/demos/digital-agency-2/bg/bg-2.jpg'); background-size: cover; background-position: center;">
             <span class="custom-circle custom-circle-1 bg-color-light appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
             <span class="custom-circle custom-circle-2 bg-color-light appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
             <div class="container">
