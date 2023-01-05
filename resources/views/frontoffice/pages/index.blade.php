@@ -5,7 +5,7 @@
 <div class="body">
     <div role="main" class="main">
 
-        <section class="section custom-circles-container section-angled bg-dark border-0 m-0" style="background-image: url(img/demos/digital-agency-2/bg/bg-1.jpg); background-size: cover; background-position: center;">
+        <section class="section custom-circles-container section-angled bg-dark border-0 m-0" style="background-image: url({{ asset('') }}assets/img/demos/digital-agency-2/bg/bg-1.jpg); background-size: cover; background-position: center;">
             <span class="custom-circle custom-circle-1 bg-color-light custom-circle-blur appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="100" data-plugin-options="{'forceAnimation': true}"></span>
             <span class="custom-circle custom-circle-2 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="200" data-plugin-options="{'forceAnimation': true}"></span>
             <span class="custom-circle custom-circle-3 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="300" data-plugin-options="{'forceAnimation': true}"></span>
@@ -33,7 +33,7 @@
                     <div class="col-lg-4 col-custom-cards">
                         <div class="card border-0 bg-color-dark rounded-0 z-index-1 p-5 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="100">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
-                                <img src="img/demos/digital-agency-2/icons/solution.png" alt="Solution" class="mb-5">
+                                <img src="{{ asset('assets/img/demos/digital-agency-2/icons/solution.png') }}" alt="Solution" class="mb-5">
                                 <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">Growth Marketing</h4>
                                 <p class="card-text text-center custom-text-4 font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
                             </div>
@@ -42,7 +42,7 @@
                     <div class="col-lg-4 col-custom-cards">
                         <div class="card border-0 bg-color-primary rounded-0 z-index-1 p-5 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
-                                <img src="img/demos/digital-agency-2/icons/advertising.png" alt="Solution" class="mb-5">
+                                <img src="{{ asset('assets/img/demos/digital-agency-2/icons/advertising.png') }}" alt="Solution" class="mb-5">
                                 <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">Content Studio</h4>
                                 <p class="card-text text-center custom-text-4 font-weight-lighter text-color-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
                             </div>
@@ -51,7 +51,7 @@
                     <div class="col-lg-4 col-custom-cards">
                         <div class="card border-0 bg-color-dark rounded-0 z-index-1 p-5 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
-                                <img src="img/demos/digital-agency-2/icons/feedback.png" alt="Solution" class="mb-5">
+                                <img src="{{ asset('assets/img/demos/digital-agency-2/icons/feedback.png') }}g" alt="Solution" class="mb-5">
                                 <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">Digital Marketing</h4>
                                 <p class="card-text text-center custom-text-4 font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
                             </div>
@@ -98,7 +98,7 @@
                             <div class="row w-100 m-0 isotope-item search-engine-optimize social-media-ads">
                                 <div class="col-sm-12 custom-our-work overlay overlay-op-9 overlay-show p-0">
                                     <a href="demo-digital-agency-2-our-work-detail.html" class="d-block">
-                                        <img src="img/demos/digital-agency-2/bg/bg-5.jpg" class="w-100">
+                                        <img src="{{ asset('assets/img/demos/digital-agency-2/bg/bg-5.jpg') }}" class="w-100">
                                         <div class="w-100 custom-our-work-text p-5 d-flex align-items-end p-absolute bottom-0">
                                             <div class="text-start p-relative z-index-2 mb-3">
                                                 <h4 class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">Okler Campaing</h4>
@@ -112,7 +112,7 @@
                             <div class="row w-100 m-0 isotope-item content-marketing email-marketing search-engine-optimize">
                                 <div class="col-sm-12 custom-our-work overlay overlay-op-9 overlay-show p-0">
                                     <a href="demo-digital-agency-2-our-work-detail.html" class="d-block">
-                                        <img src="img/demos/digital-agency-2/bg/bg-6.jpg" class="w-100">
+                                        <img src="{{ asset('assets/img/demos/digital-agency-2/bg/bg-6.jpg') }}" class="w-100">
                                         <div class="w-100 custom-our-work-text p-5 d-flex align-items-end p-absolute bottom-0">
                                             <div class="text-start p-relative z-index-2 mb-3">
                                                 <h4 class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">Porto Dashboard</h4>
@@ -126,7 +126,7 @@
                             <div class="row w-100 m-0 isotope-item ui-design web-development b2b-software">
                                 <div class="col-sm-12 custom-our-work overlay overlay-op-9 overlay-show p-0">
                                     <a href="demo-digital-agency-2-our-work-detail.html" class="d-block">
-                                        <img src="img/demos/digital-agency-2/bg/bg-7.jpg" class="w-100">
+                                        <img src="{{ asset('assets/img/demos/digital-agency-2/bg/bg-7.jpg') }}" class="w-100">
                                         <div class="w-100 custom-our-work-text p-5 d-flex align-items-end p-absolute bottom-0">
                                             <div class="text-start p-relative z-index-2 mb-3">
                                                 <h4 class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">Okler Responsive Photos</h4>
@@ -140,7 +140,7 @@
                             <div class="row w-100 m-0 isotope-item brand-and-identity content-strategy">
                                 <div class="col-sm-12 custom-our-work overlay overlay-op-9 overlay-show p-0">
                                     <a href="demo-digital-agency-2-our-work-detail.html" class="d-block">
-                                        <img src="img/demos/digital-agency-2/bg/bg-8.jpg" class="w-100">
+                                        <img src="{{ asset('assets/img/demos/digital-agency-2/bg/bg-8.jpg') }}" class="w-100">
                                         <div class="w-100 custom-our-work-text p-5 d-flex align-items-end p-absolute bottom-0">
                                             <div class="text-start p-relative z-index-2 mb-3">
                                                 <h4 class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">Okler Mobile App</h4>
@@ -330,7 +330,7 @@
             </div>
         </section>
 
-        <section class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden" style="background-image: url('img/demos/digital-agency-2/bg/bg-2.jpg'); background-size: cover; background-position: center;">
+        <section class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden" style="background-image: url('assets/img/demos/digital-agency-2/bg/bg-2.jpg'); background-size: cover; background-position: center;">
             <span class="custom-circle custom-circle-1 bg-color-light appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
             <span class="custom-circle custom-circle-2 bg-color-light appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
             <div class="container">

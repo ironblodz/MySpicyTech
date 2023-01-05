@@ -17,7 +17,7 @@
                         <h1 class="custom-text-10 font-weight-bold">Contact Us</h1>
                     </div>
                 </div>
-            </div>
+            </div><i class="fa fa-share-square" aria-hidden="true"></i>
         </section>
 
         <section class="mt-3 mt-xl-0 py-5 p-relative z-index-2">
