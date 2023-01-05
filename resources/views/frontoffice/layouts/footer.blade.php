@@ -3,7 +3,7 @@
         <div class="row justify-content-between">
             <div class="col-sm-12 col-lg-6 col-xl-6">
                 <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100">
-                    <h4 class="custom-font-primary custom-newsletter-title font-weight-bold mb-4 custom-text-7">Join for Company Updates</h4>
+                    <h4 class="custom-font-primary custom-newsletter-title font-weight-bold mb-4 custom-text-7">Sign up to receive our promotions and company updates</h4>
                     <div class="alert alert-success d-none" id="newsletterSuccess">
                         <strong>Success!</strong> You've been added to our email list.
                     </div>
