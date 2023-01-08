@@ -317,7 +317,7 @@ html.mobile-menu-opened.sticky-header-active
 .approach-img {
     position: relative;
     display: block;
-    background-image: url("../../img/demos/digital-agency-2/bg/bg-3.png");
+    background-image: url("../../img/demos/digital-agency-2/bg/office2.jpeg");
     background-repeat: no-repeat;
     border-radius: 50%;
     min-width: 355px;
@@ -326,6 +326,7 @@ html.mobile-menu-opened.sticky-header-active
     max-height: 360px;
     margin: auto;
     width: 100%;
+    background-size: cover;
 }
 
 .approach-img .custom-circle-1 {
@@ -349,9 +350,10 @@ html.mobile-menu-opened.sticky-header-active
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(../../img/demos/digital-agency-2/bg/bg-3.png);
+    background-image: url(../../img/demos/digital-agency-2/bg/office.jpeg);
     background-position: center;
-    background-size: 500px;
+    background-size: 140px;
+    opacity: 85%;
 }
 
 .approach-img .custom-circle-our-approach-deco-1 {

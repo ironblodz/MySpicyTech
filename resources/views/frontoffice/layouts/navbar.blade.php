@@ -24,12 +24,12 @@
                                         </li>
                                         <li class="dropdown-primary">
                                             <a class="nav-link text-capitalize font-weight-semibold custom-text-3" href="{{route('frontoffice.about') }}">
-                                                About Us
+                                                Sobre Nós
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="nav-link dropdown-toggle text-capitalize font-weight-semibold custom-text-3" class="dropdown-toggle" href="demo-digital-agency-2-our-services.html">
-                                                Our Services
+                                            <a class="nav-link dropdown-toggle text-capitalize font-weight-semibold custom-text-3" class="dropdown-toggle" href="{{route('frontoffice.services')}}">
+                                                Serviços
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
@@ -86,7 +86,7 @@
                                         </li>
                                         <li class="dropdown-primary">
                                             <a class="nav-link text-capitalize font-weight-semibold custom-text-3" href="demo-digital-agency-2-our-work.html">
-                                                Our Work
+                                                Projetos
                                             </a>
                                         </li>
                                         <li class="dropdown-primary">
@@ -96,7 +96,7 @@
                                         </li>
                                         <li class="dropdown-primary">
                                             <a class="nav-link text-capitalize font-weight-semibold custom-text-3" href="{{ route('frontoffice.contact') }}">
-                                                Contact Us
+                                                Contactos
                                             </a>
                                         </li>
                                     </ul>

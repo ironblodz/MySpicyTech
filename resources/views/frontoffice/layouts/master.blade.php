@@ -49,7 +49,17 @@
 		<script src="{{asset('assets/vendor/modernizr/modernizr.min.js')}}"></script>
 
 	</head>
-	<body>
+	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}">
+        <!-- ===== PRE LOADER ===== -->
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="cssload-float-bars-container">
+                    <ul class="cssload-float-bars-flex-container">
+                        <li><span class="cssload-float-bars-loading"></span></li>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         @include('frontoffice.layouts.navbar')
 
@@ -59,6 +69,8 @@
 
         <!-- ===== /// SCRIPTS \\\ ===== -->
 		<!-- Vendor -->
+		<script src="{{asset('assets/vendor/plugins/js/plugins.min.js')}}"></script>
+		<script src="{{asset('assets/vendor/particles/particles.min.js')}}"></script>
 		<script src="{{asset('assets/vendor/plugins/js/plugins.min.js')}}"></script>
 
 		<!-- Theme Base, Components and Settings -->
@@ -72,6 +84,8 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="{{asset('assets/js/theme.init.js')}}"></script>
+        <!-- Examples -->
+		<script src="{{asset('assets/js/examples/examples.particles.js')}}"></script>
 
 
 	</body>

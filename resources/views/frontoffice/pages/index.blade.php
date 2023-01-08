@@ -3,19 +3,12 @@
 @section('content')
 
 <div class="body">
-
     <div role="main" class="main">
         <!-- ==== Header Principal ==== -->
-        <section class="section custom-circles-container section-angled bg-dark border-0 m-0" style=" background-size: cover; background-position: center;">
-            <span class="custom-circle custom-circle-1 bg-color-light custom-circle-blur appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="100" data-plugin-options="{'forceAnimation': true}"></span>
-            <span class="custom-circle custom-circle-2 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="200" data-plugin-options="{'forceAnimation': true}"></span>
-            <span class="custom-circle custom-circle-3 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="300" data-plugin-options="{'forceAnimation': true}"></span>
-            <span class="custom-circle custom-circle-1 bg-color-light custom-circle-blur appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400" data-plugin-options="{'forceAnimation': true}"></span>
-            <span class="custom-circle custom-circle-2 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="500" data-plugin-options="{'forceAnimation': true}"></span>
-            <span class="custom-circle custom-circle-3 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="600" data-plugin-options="{'forceAnimation': true}"></span>
+        <section class="section custom-circles-container section-angled bg-dark border-0 m-0">
             <div class="section-angled-layer-bottom section-angled-layer-increase-angle bg-light"></div>
             <div class="section-angled-content h-100">
-                <div class="container pt-md-5 pb-lg-4 mt-5 mb-lg-5">
+                <div class="container pt-md-5 pb-lg-4 mt-5 mb-lg-5" >
                     <div class="row pb-lg-5 mt-5 mb-lg-5">
                         <div class="col-lg-7 pt-5 pt-md-0 pb-lg-5 mt-5 mb-md-5">
                             <h2 class="custom-title-with-icon custom-title-with-icon-primary font-weight-normal text-color-default text-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">Bem vindos à SpicyTecH</h2>
@@ -36,7 +29,7 @@
                     <div class="col-lg-4 col-custom-cards">
                         <div class="card border-0 bg-color-dark rounded-0 z-index-1 p-5 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="100">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
-                                <img src="/assets/img/demos/digital-agency-2/icons/responsive.png" alt="Solution" class="mb-5"  style=" max-width: 80px; background-size: cover;">
+                                <img src="/assets/img/demos/digital-agency-2/icons/responsive.svg" alt="Solution" class="mb-5"  style=" max-width: 80px; background-size: cover;">
                                 <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">Responsivo</h4>
                                 <p class="card-text text-center custom-text-4 font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
                             </div>
@@ -46,7 +39,7 @@
                     <div class="col-lg-4 col-custom-cards">
                         <div class="card border-0 bg-color-primary rounded-0 z-index-1 p-5 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
-                                <img src="/assets/img/demos/digital-agency-2/icons/shield.png" alt="Solution" class="mb-5" style=" max-width: 100px; "">
+                                <img src="/assets/img/demos/digital-agency-2/icons/security.svg" alt="Solution" class="mb-5" style=" max-width: 100px; "">
                                 <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">Seguro</h4>
                                 <p class="card-text text-center custom-text-4 font-weight-lighter text-color-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
                             </div>
@@ -56,7 +49,7 @@
                     <div class="col-lg-4 col-custom-cards">
                         <div class="card border-0 bg-color-dark rounded-0 z-index-1 p-5 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
-                                <img src="/assets/img/demos/digital-agency-2/icons/stars.png" alt="Solution" class="mb-5" style=" max-width: 110px; background-size: cover;">
+                                <img src="/assets/img/demos/digital-agency-2/icons/stars.svg" alt="Solution" class="mb-5" style=" max-width: 110px; background-size: cover;">
                                 <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">Elegante</h4>
                                 <p class="card-text text-center custom-text-4 font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
                             </div>
