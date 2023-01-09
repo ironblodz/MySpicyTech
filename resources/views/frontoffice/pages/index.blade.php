@@ -268,54 +268,48 @@
             </div>
         </section>
 
-        <section class="our-insights bg-color-tertiary p-relative py-5">
-            <span class="custom-circle custom-circle-2 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
-            <span class="custom-circle custom-circle-3 bg-color-primary appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
-            <div class="container py-5">
+        <!-- ==== TESTEMUNHOS ==== -->
+        <section class="section section-height-3 bg-color-grey-scale-1 border-0 m-0 appear-animation" data-appear-animation="fadeIn">
+            <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <h4 class="text-color-dark custom-text-10 font-weight-bold text-center custom-title-with-icon-center custom-title-with-icon custom-title-with-icon-primary pb-5 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Our Insights</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col pb-5">
-                        <article>
-                            <p class="custom-font-tertiary text-uppercase custom-text-2 mb-1 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">FEBRUARY 4, 2022</p>
-                            <h4 class="text-color-dark custom-text-8 font-weight-bold mb-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400"><a href="demo-digital-agency-2-our-blog-post.html" class="text-color-dark text-color-hover-primary">An Interview With John Paul Doe</a></h4>
-                            <p class="custom-text-4 mb-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero.</p>
-                            <a href="demo-digital-agency-2-our-blog-post.html" class="text-color-primary text-color-hover-secondary custom-text-4 font-weight-bold text-decoration-underline appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">Read More...</a>
-                        </article>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col pb-5">
-                        <article>
-                            <p class="custom-font-tertiary text-uppercase custom-text-2 mb-1 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">FEBRUARY 4, 2022</p>
-                            <h4 class="text-color-dark custom-text-8 font-weight-bold mb-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400"><a href="demo-digital-agency-2-our-blog-post.html" class="text-color-dark text-color-hover-primary">Building An E-Commerce Site With CMS</a></h4>
-                            <p class="custom-text-4 mb-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero.</p>
-                            <a href="demo-digital-agency-2-our-blog-post.html" class="text-color-primary text-color-hover-secondary custom-text-4 font-weight-bold text-decoration-underline appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">Read More...</a>
-                        </article>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col pb-5">
-                        <article>
-                            <p class="custom-font-tertiary text-uppercase custom-text-2 mb-1 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">FEBRUARY 4, 2022</p>
-                            <h4 class="text-color-dark custom-text-8 font-weight-bold mb-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400"><a href="demo-digital-agency-2-our-blog-post.html" class="text-color-dark text-color-hover-primary">How To Design Mobile Apps For Everyone</a></h4>
-                            <p class="custom-text-4 mb-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero.</p>
-                            <a href="demo-digital-agency-2-our-blog-post.html" class="text-color-primary text-color-hover-secondary custom-text-4 font-weight-bold text-decoration-underline appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">Read More...</a>
-                        </article>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <a herf="demo-digital-agency-2-our-blog.html" class="btn btn-outline custom-btn-outline btn-primary rounded-0 text-color-dark custom-text-4 bg-color-hover-transparent text-color-hover-light font-weight-semibold custom-btn-with-arrow px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">View More</a>
+                    <div class="col appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+
+                        <div class="owl-carousel owl-theme stage-margin stage-margin-lg nav-dark nav-style-2 mb-0" data-plugin-options="{'items': 1, 'margin': 100, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 100, 'autoHeight': true}">
+                            <div>
+                                <div class="testimonial testimonial-style-2 mb-0">
+                                    <div class="testimonial-author">
+                                        <img src="/assets/img/clients/profile1.jpeg" class="img-fluid rounded-circle" alt="">
+                                    </div>
+                                    <blockquote>
+                                        <p class="text-color-dark text-5 line-height-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ante tellus, convallis non consectetur sed, pharetra nec ex.</p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p><strong class="font-weight-extra-bold text-2">- John Smith. Okler</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="testimonial testimonial-style-2 mb-0">
+                                    <div class="testimonial-author">
+                                        <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+                                    </div>
+                                    <blockquote>
+                                        <p class="text-color-dark text-5 line-height-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p><strong class="font-weight-extra-bold text-2">- John Smith. Okler</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden" style="background-image: url('assets/img/demos/digital-agency-2/bg/bg-2.jpg'); background-size: cover; background-position: center;">
+
+        <section class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden mt-5" style="background-image: url('assets/img/demos/digital-agency-2/bg/...); background-size: cover; background-position: center;">
             <span class="custom-circle custom-circle-1 bg-color-light appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
             <span class="custom-circle custom-circle-2 bg-color-light appear-animation" data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
             <div class="container">
@@ -323,7 +317,7 @@
                     <div class="col-lg-8">
                         <p class="mb-2 text-color-tertiary custom-text-7 custom-title-with-icon custom-title-with-icon-light appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">Let’s Get in Touch</p>
                         <h4 class="text-color-light font-weight-bold custom-text-10 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-                            We’re interested in talking<br/>
+                            Where interested in talking<br/>
                             about your business.
                         </h4>
                     </div>

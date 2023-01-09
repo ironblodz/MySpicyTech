@@ -256,12 +256,12 @@ pre {
 #header .header-top {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 2px solid rgba(240, 235, 235, 0.06);
     min-height: 47px;
 }
 
 #header .header-top.header-top-light-border-bottom {
-    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(234, 234, 234, 0.1);
 }
 
 #header .header-top.header-top-simple-border-bottom {
@@ -277,7 +277,7 @@ pre {
 }
 
 #header .header-top.header-top-borders .nav-item-borders {
-    border-right: 1px solid rgba(0, 0, 0, 0.06);
+    border-right: 1px solid rgba(239, 238, 238, 0.06);
     padding-left: 12px;
     padding-right: 12px;
 }
