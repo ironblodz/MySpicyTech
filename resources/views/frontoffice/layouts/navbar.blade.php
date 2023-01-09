@@ -58,12 +58,12 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="index.html">
+                                            <a class="dropdown-item " href="index.html">
                                                 Home
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="elements.html">
+                                            <a class="dropdown-item " href="elements.html">
                                                 Sobre Nós
                                             </a>
                                         </li>
@@ -563,70 +563,7 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
-                                                Pages
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Contact Us</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="contact-us-advanced.php">Contact Us - Advanced</a></li>
-                                                        <li><a class="dropdown-item" href="contact-us.html">Contact Us - Basic</a></li>
-                                                        <li><a class="dropdown-item" href="contact-us-recaptcha.html">Contact Us - Recaptcha</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">About Us</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="about-us-advanced.html">About Us - Advanced</a></li>
-                                                        <li><a class="dropdown-item" href="about-us.html">About Us - Basic</a></li>
-                                                        <li><a class="dropdown-item" href="about-me.html">About Me</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Layouts</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="page-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="page-left-sidebar.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="page-right-sidebar.html">Right Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="page-left-and-right-sidebars.html">Left and Right Sidebars</a></li>
-                                                        <li><a class="dropdown-item" href="page-sticky-sidebar.html">Sticky Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="page-secondary-navbar.html">Secondary Navbar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Extra</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="page-404.html">404 Error</a></li>
-                                                        <li><a class="dropdown-item" href="page-500.html">500 Error</a></li>
-                                                        <li><a class="dropdown-item" href="page-coming-soon.html">Coming Soon</a></li>
-                                                        <li><a class="dropdown-item" href="page-maintenance-mode.html">Maintenance Mode</a></li>
-                                                        <li><a class="dropdown-item" href="page-search-results.html">Search Results</a></li>
-                                                        <li><a class="dropdown-item" href="sitemap.html">Sitemap</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Team</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="page-team-advanced.html">Team - Advanced</a></li>
-                                                        <li><a class="dropdown-item" href="page-team.html">Team - Basic</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Services</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="page-services.html">Services - Version 1</a></li>
-                                                        <li><a class="dropdown-item" href="page-services-2.html">Services - Version 2</a></li>
-                                                        <li><a class="dropdown-item" href="page-services-3.html">Services - Version 3</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="page-careers.html">Careers</a></li>
-                                                <li><a class="dropdown-item" href="page-faq.html">FAQ</a></li>
-                                                <li><a class="dropdown-item" href="page-login.html">Login / Register</a></li>
-                                                <li><a class="dropdown-item" href="page-user-profile.html">User Profile</a></li>
-                                            </ul>
-                                        </li>
+
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 Portfolio
@@ -708,132 +645,15 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
-                                                Blog
+                                            <a class="dropdown-item" href="">
+                                                FAQs
                                             </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Large Image</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="blog-large-image-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="blog-large-image-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-large-image-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="blog-large-image-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Medium Image</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="blog-medium-image-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-medium-image-sidebar-right.html">Right Sidebar </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Grid</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="blog-grid-4-columns.html">4 Columns</a></li>
-                                                        <li><a class="dropdown-item" href="blog-grid-3-columns.html">3 Columns</a></li>
-                                                        <li><a class="dropdown-item" href="blog-grid-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="blog-grid-no-margins.html">No Margins</a></li>
-                                                        <li><a class="dropdown-item" href="blog-grid-no-margins-full-width.html">No Margins Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="blog-grid-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-grid-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="blog-grid-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Masonry</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="blog-masonry-4-columns.html">4 Columns</a></li>
-                                                        <li><a class="dropdown-item" href="blog-masonry-3-columns.html">3 Columns</a></li>
-                                                        <li><a class="dropdown-item" href="blog-masonry-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="blog-masonry-no-margins.html">No Margins</a></li>
-                                                        <li><a class="dropdown-item" href="blog-masonry-no-margins-full-width.html">No Margins Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="blog-masonry-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-masonry-sidebar-right.html">Right Sidebar </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Timeline</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="blog-timeline.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="blog-timeline-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-timeline-sidebar-right.html">Right Sidebar </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Single Post</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="blog-post.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-slider-gallery.html">Slider Gallery</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-image-gallery.html">Image Gallery</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-embedded-video.html">Embedded Video</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-html5-video.html">HTML5 Video</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-blockquote.html">Blockquote</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-link.html">Link</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-embedded-audio.html">Embedded Audio</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-small-image.html">Small Image</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Post Comments</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="blog-post.html#comments">Default</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-comments-facebook.html#comments">Facebook Comments</a></li>
-                                                        <li><a class="dropdown-item" href="blog-post-comments-disqus.html#comments">Disqus Comments</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
                                         </li>
+
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
-                                                Contact
+                                            <a class="dropdown-item" href="#">
+                                                Contactos
                                             </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">Single Product</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-product-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-right.html">Right Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-product-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="shop-4-columns.html">4 Columns</a></li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">3 Columns</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-3-columns-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-3-columns-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-3-columns-sidebar-right.html">Right Sidebar </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">2 Columns</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-2-columns-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="shop-2-columns-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a class="dropdown-item" href="#">1 Column</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="shop-1-column-full-width.html">Full Width</a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-right.html">Right Sidebar </a></li>
-                                                        <li><a class="dropdown-item" href="shop-1-column-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="shop-cart.html">Cart</a></li>
-                                                <li><a class="dropdown-item" href="shop-login.html">Login</a></li>
-                                                <li><a class="dropdown-item" href="shop-checkout.html">Checkout</a></li>
-                                                <li><a class="dropdown-item" href="shop-order-complete.html">Order Complete</a></li>
-                                            </ul>
                                         </li>
                                     </ul>
                                 </nav>
@@ -843,21 +663,21 @@
                                 <i class="fas fa-bars"></i>
                             </button>
                         </div>
-                    <div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
-                        <div class="header-nav-feature header-nav-features-search d-inline-flex">
-                            <a href="#" class="header-nav-features-toggle text-decoration-none" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon text-3"></i></a>
-                            <div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
-                                <form role="search" action="page-search-results.html" method="get">
-                                    <div class="simple-search input-group">
-                                        <input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
-                                        <button class="btn" type="submit">
-                                            <i class="fas fa-search header-nav-top-icon"></i>
-                                        </button>
-                                    </div>
-                                </form>
+                        <div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
+                            <div class="header-nav-feature header-nav-features-search d-inline-flex">
+                                <a href="#" class="header-nav-features-toggle text-decoration-none" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon text-3"></i></a>
+                                <div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
+                                    <form role="search" action="page-search-results.html" method="get">
+                                        <div class="simple-search input-group">
+                                            <input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
+                                            <button class="btn" type="submit">
+                                                <i class="fas fa-search header-nav-top-icon"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>

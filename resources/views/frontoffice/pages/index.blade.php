@@ -11,17 +11,9 @@
                     <div class="container pt-md-5 pb-lg-4 mt-5 mb-lg-5">
                         <div class="row pb-lg-5 mt-5 mb-lg-5">
                             <div class="col-lg-7 pt-5 pt-md-0 pb-lg-5 mt-5 mb-md-5">
-                                <h2 class="custom-title-with-icon custom-title-with-icon-primary font-weight-normal text-color-default text-5 mb-0 appear-animation"
-                                    data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">Bem vindos
-                                    à SpicyTecH</h2>
-                                <h1 class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-2 mb-4 appear-animation"
-                                    data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850">Transforme
-                                    ideias em Websites -> <span class="text-style">S</span>picy<span
-                                        class="text-style">T</span>ecH.</h1>
-                                <a href="#intro" data-hash data-hash-offset="0" data-hash-offset-lg="100"
-                                    class="btn btn-outline custom-btn-outline btn-primary rounded-0 font-weight-semibold text-color-light bg-color-hover-primary custom-btn-with-arrow text-4 btn-px-4 py-3 mt-2 appear-animation"
-                                    data-appear-animation="fadeInUpShorterPlus"
-                                    data-appear-animation-delay="1100">Contacte-nos</a>
+                                <h2 class="custom-title-with-icon custom-title-with-icon-primary font-weight-normal text-color-default text-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">Bem vindos à SpicyTecH</h2>
+                                <h1 class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850"> Transforme ideias em Websites -> <span class="text-style">S</span>picy<span class="text-style">T</span>ecH.</h1>
+                                <a href="#intro" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-outline custom-btn-outline btn-primary rounded-md font-weight-semibold text-color-light bg-color-hover-primary custom-btn-with-arrow text-4 btn-px-4 py-3 mt-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100">Contacte-nos</a>
                             </div>
                         </div>
                         <div class="spacer py-5 mt-lg-5 mb-md-5"></div>
