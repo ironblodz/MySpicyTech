@@ -12,7 +12,7 @@
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="{{asset('assets/img/favicon.ico" type="image/x-icon')}}" />
+		<link rel="shortcut icon" href="{{asset('assets/img/favicon.ico')}}" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="{{asset('assets/img/apple-touch-icon.png')}}">
 
 		<!-- Mobile Metas -->
@@ -42,6 +42,7 @@
 		<!-- Skin CSS -->
 		<link id="skinCSS" rel="stylesheet" href="{{asset('assets/css/skins/skin-digital-agency-2.css')}}">
 
+        
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
 
@@ -69,9 +70,9 @@
 
         <!-- ===== /// SCRIPTS \\\ ===== -->
 		<!-- Vendor -->
-		<script src="{{asset('assets/vendor/plugins/js/plugins.min.js')}}"></script>
+
+		<script src="{{asset('assets/vendor/plugins/js/plugins.js')}}"></script>
 		<script src="{{asset('assets/vendor/particles/particles.min.js')}}"></script>
-		<script src="{{asset('assets/vendor/plugins/js/plugins.min.js')}}"></script>
 
 		<!-- Theme Base, Components and Settings -->
 		<script src="{{asset('assets/js/theme.js')}}"></script>

@@ -8662,7 +8662,7 @@ html[xmlns] .clearfix {
 
 /* Vertical Lines */
 .vertical-lines:not(.vertical-lines-after) {
-    background-image: url(../img/vertical-lines.svg);
+    background-image: url(../assets/img/vertical-lines.svg);
     background-repeat: repeat;
     background-position: 50%;
     pointer-events: none;
@@ -8677,7 +8677,7 @@ html[xmlns] .clearfix {
     display: block;
     position: absolute;
     z-index: 1;
-    background-image: url(../img/vertical-lines.svg);
+    background-image: url(../assets/img/vertical-lines.svg);
     background-repeat: repeat;
     background-position: 50%;
     top: 0;
@@ -14641,23 +14641,23 @@ html.dark section.section-custom-map section.section {
 }
 
 html.dark .home-concept {
-    background-image: url(../img/home/home-concept-dark.png);
+    background-image: url(../assets/img/home/home-concept-dark.png);
 }
 
 html.dark .home-concept .process-image {
-    background-image: url(../img/home/home-concept-item-dark.png);
+    background-image: url(../assets/img/home/home-concept-item-dark.png);
 }
 
 html.dark .home-concept .project-image {
-    background-image: url(../img/home/home-concept-item-dark.png);
+    background-image: url(../assets/img/home/home-concept-item-dark.png);
 }
 
 html.dark .home-concept .sun {
-    background-image: url(../img/home/home-concept-icons-dark.png);
+    background-image: url(../assets/img/home/home-concept-icons-dark.png);
 }
 
 html.dark .home-concept .cloud {
-    background-image: url(../img/home/home-concept-icons-dark.png);
+    background-image: url(../assets/img/home/home-concept-icons-dark.png);
 }
 
 html.dark .page-header {
@@ -14814,7 +14814,7 @@ html.dark .progress {
 }
 
 html.dark .arrow {
-    background-image: url(../img/arrows-dark.png);
+    background-image: url(../assets/img/arrows-dark.png);
 }
 
 html.dark .thumbnail,
