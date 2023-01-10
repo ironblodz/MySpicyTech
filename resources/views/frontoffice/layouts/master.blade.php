@@ -42,12 +42,13 @@
 		<!-- Skin CSS -->
 		<link id="skinCSS" rel="stylesheet" href="{{asset('assets/css/skins/skin-digital-agency-2.css')}}">
 
-        
+
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
 
 		<!-- Head Libs -->
 		<script src="{{asset('assets/vendor/modernizr/modernizr.min.js')}}"></script>
+
 
 	</head>
 	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}">
@@ -70,7 +71,7 @@
 
         <!-- ===== /// SCRIPTS \\\ ===== -->
 		<!-- Vendor -->
-
+        <script src="https://kit.fontawesome.com/c350ee137c.js" crossorigin="anonymous"></script>
 		<script src="{{asset('assets/vendor/plugins/js/plugins.js')}}"></script>
 		<script src="{{asset('assets/vendor/particles/particles.min.js')}}"></script>
 
