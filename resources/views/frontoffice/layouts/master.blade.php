@@ -74,11 +74,7 @@
 
         <!-- ===== /// SCRIPTS \\\ ===== -->
 		<!-- Vendor -->
-<<<<<<< Updated upstream
-        <script src="https://kit.fontawesome.com/c350ee137c.js" crossorigin="anonymous"></script>
-=======
         <script src="https://kit.fontawesome.com/83f058e5ba.js" crossorigin="anonymous"></script>
->>>>>>> Stashed changes
 		<script src="{{asset('assets/vendor/plugins/js/plugins.js')}}"></script>
 		<script src="{{asset('assets/vendor/particles/particles.min.js')}}"></script>
 
