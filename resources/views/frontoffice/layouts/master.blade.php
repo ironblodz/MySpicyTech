@@ -19,6 +19,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
 		<!-- Web Fonts  -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet" type="text/css">
 
 		<!--  Vendor -->
@@ -35,6 +37,7 @@
 		<link rel="stylesheet" href="{{asset('assets/css/theme-elements.css')}}">
 		<link rel="stylesheet" href="{{asset('assets/css/theme-blog.css')}}">
 		<link rel="stylesheet" href="{{asset('assets/css/theme-shop.css')}}">
+
 
 		<!-- Demo CSS -->
 		<link rel="stylesheet" href="{{asset('assets/css/demos/demo-digital-agency-2.css')}}">
@@ -71,7 +74,11 @@
 
         <!-- ===== /// SCRIPTS \\\ ===== -->
 		<!-- Vendor -->
+<<<<<<< Updated upstream
         <script src="https://kit.fontawesome.com/c350ee137c.js" crossorigin="anonymous"></script>
+=======
+        <script src="https://kit.fontawesome.com/83f058e5ba.js" crossorigin="anonymous"></script>
+>>>>>>> Stashed changes
 		<script src="{{asset('assets/vendor/plugins/js/plugins.js')}}"></script>
 		<script src="{{asset('assets/vendor/particles/particles.min.js')}}"></script>
 
