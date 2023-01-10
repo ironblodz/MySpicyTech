@@ -68,13 +68,7 @@
                                         </li>
                                         <!-- Serviços -->
                                         <li class="dropdown">
-<<<<<<< Updated upstream
-                                            <a class="#" href=""> Serviços <i class="fas fa-chevron-down active"></i></a>
-=======
-                                            <a href="#">
-                                                Serviços
-                                            </a><i id="sizeico2" class="fas fa-chevron-down"></i>
->>>>>>> Stashed changes
+                                            <a class="dropdown-item dropdown-toggle" href="">Serviços</a>
                                             <ul class="dropdown-menu">
                                                 <li class="dropdown-submenu">
                                                     <a class="dropdown-item" href="#">Web Development</a>
@@ -90,16 +84,8 @@
                                                 </li>
                                             </ul>
                                         </li>
-<<<<<<< Updated upstream
-                                        <!-- Portfólio -->
                                         <li class="dropdown">
-                                            <a class="#" href="#"> Portfolio <i class="fas fa-chevron-down active"></i></a>
-=======
-                                        <li class="dropdown">
-                                            <a href="#">
-                                                Portfolio
-                                            </a><i id="sizeico" class="fas fa-chevron-down"></i>
->>>>>>> Stashed changes
+                                            <a class="dropdown-item dropdown-toggle" href="#"> Portfolio</a>
                                             <ul class="dropdown-menu">
                                                 <li class="dropdown-submenu">
                                                     <a class="dropdown-item" href="#">Single Project</a>
