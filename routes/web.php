@@ -14,6 +14,7 @@ use App\Http\Controllers\PageController;
 |
 */
 
+//Grupo de rotas com o prefix "frontoffice", apartir daí todas as rotas aqui inseridas, levarão o prefix "frontoffice" adicionado no url, antes do nome do ficheiro
 Route::prefix('frontoffice')->group(function(){
 
     //Rota da Blade Master
