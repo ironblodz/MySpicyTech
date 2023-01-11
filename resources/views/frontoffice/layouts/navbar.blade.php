@@ -9,13 +9,19 @@
                             <nav class="header-nav-top">
                                 <ul class="nav nav-pills">
                                     <li class="nav-item nav-item-borders py-2 d-none d-sm-inline-flex">
-                                        <span class="ps-0 text-zinc-200 font-weight-semibold"><i class="far fa-dot-circle text-4 text-color-primary top-2 text-5"></i> 1234 Street Name, City Name</span>
+                                        <span class="ps-0 text-zinc-200 font-weight-semibold">
+                                            <i class="far fa-dot-circle text-4 text-color-primary top-2 text-5"></i> 1234 Street Name, City Name
+                                        </span>
                                     </li>
                                     <li class="nav-item nav-item-borders py-2">
-                                        <a href="tel:123-456-7890" class="text-zinc-200 text-color-hover-primary font-weight-semibold"><i class="fab fa-whatsapp text-4 text-color-primary top-2 text-5"></i> 123-456-7890</a>
+                                        <a href="tel:123-456-7890" class="text-zinc-200 text-color-hover-primary font-weight-semibold">
+                                            <i class="fab fa-whatsapp text-4 text-color-primary top-2 text-5"></i> 123-456-7890
+                                        </a>
                                     </li>
                                     <li class="nav-item nav-item-borders py-2 d-none d-md-inline-flex">
-                                        <a href="mailto:mail@domain.com" class="text-zinc-200 text-color-hover-primary font-weight-semibold"><i class="far fa-envelope text-4 text-color-primary top-2 text-5"></i> mail@domain.com</a>
+                                        <a href="mailto:mail@domain.com" class="text-zinc-200 text-color-hover-primary font-weight-semibold">
+                                            <i class="far fa-envelope text-4 text-color-primary top-2 text-5"></i> mail@domain.com
+                                        </a>
                                     </li>
                                 </ul>
                             </nav>

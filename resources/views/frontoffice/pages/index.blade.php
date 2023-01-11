@@ -10,9 +10,14 @@
                     <div class="container pt-md-5 pb-lg-4 mt-5 mb-lg-5">
                         <div class="row pb-lg-5 mt-5 mb-lg-5">
                             <div class="col-lg-7 pt-5 pt-md-0 pb-lg-5 mt-5 mb-md-5">
-                                <h2 class="custom-title-with-icon custom-title-with-icon-primary font-weight-normal text-color-default text-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">Bem vindos à SpicyTecH</h2>
-                                <h1 class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850"> Transforme ideias em Websites -> <span class="text-style">S</span>picy<span class="text-style">T</span>ecH.</h1>
-                                <a href="#intro" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-outline custom-btn-outline btn-primary rounded-md font-weight-semibold text-color-light bg-color-hover-primary custom-btn-with-arrow text-4 btn-px-4 py-3 mt-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100">Contacte-nos</a>
+                                <h2 class="custom-title-with-icon custom-title-with-icon-primary font-weight-normal text-color-default text-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
+                                    Bem vindos à SpicyTecH
+                                </h2>
+                                <h1 class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850"> 
+                                    Transforme ideias em Websites -> <span class="text-style">S</span>picy<span class="text-style">T</span>ecH.
+                                </h1>
+                                <a href="#intro" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-outline custom-btn-outline btn-primary rounded-md font-weight-semibold text-color-light bg-color-hover-primary custom-btn-with-arrow text-4 btn-px-4 py-3 mt-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100">   Contacte-nos
+                                </a>
                             </div>
                         </div>
                         <div class="spacer py-5 mt-lg-5 mb-md-5"></div>
@@ -20,7 +25,6 @@
                 </div>
             </section>
 
-            <!-- ===== CARDS INFO ===== -->
             <section class="custom-cards p-relative mb-5 pb-5 z-index-2">
                 <div class="container">
                     <div class="row">
@@ -28,14 +32,14 @@
                         <div class="col-lg-4 col-custom-cards">
                             <div class="card border-0 bg-color-dark rounded-0 z-index-1 p-5 appear-animation"
                                 data-appear-animation="maskUp" data-appear-animation-delay="100">
-                                <div
-                                    class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
                                     <img src="{{asset('/assets/img/demos/digital-agency-2/icons/responsive.svg')}}" alt="Solution"
                                         class="mb-5" style=" max-width: 80px; background-size: cover;">
-                                    <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">
-                                        Responsivo</h4>
-                                    <p class="card-text text-center custom-text-4 font-weight-lighter">Lorem ipsum dolor sit
-                                        amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
+                                    <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">Responsivo</h4>
+                                    <p class="card-text text-center custom-text-4 font-weight-lighter">
+                                        Lorem ipsum dolor sit
+                                        amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -43,15 +47,14 @@
                         <div class="col-lg-4 col-custom-cards">
                             <div class="card border-0 bg-color-primary rounded-0 z-index-1 p-5 appear-animation"
                                 data-appear-animation="maskUp" data-appear-animation-delay="200">
-                                <div
-                                    class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
                                     <img src="{{asset('/assets/img/demos/digital-agency-2/icons/security.svg')}}" alt="Solution"
                                         class="mb-5" style=" max-width: 100px; ">
                                     <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">
                                         Seguro</h4>
                                     <p class="card-text text-center custom-text-4 font-weight-lighter text-color-light">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac
-                                        auctor</p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -64,9 +67,11 @@
                                     <img src="{{asset('/assets/img/demos/digital-agency-2/icons/stars.svg')}}" alt="Solution"
                                         class="mb-5" style=" max-width: 110px; background-size: cover;">
                                     <h4 class="card-title custom-text-8 font-weight-bold text-color-light text-center mb-3">
-                                        Elegante</h4>
-                                    <p class="card-text text-center custom-text-4 font-weight-lighter">Lorem ipsum dolor sit
-                                        amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
+                                        Elegante
+                                    </h4>
+                                    <p class="card-text text-center custom-text-4 font-weight-lighter">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor
+                                    </p>
                                 </div>
                             </div>
                         </div>
