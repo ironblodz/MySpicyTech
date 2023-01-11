@@ -14,16 +14,23 @@ use App\Http\Controllers\PageController;
 |
 */
 
-Route::get('/', [App\Http\Controllers\PageController::class, 'index']);
+Route::prefix('frontoffice')->group(function(){
 
-//Rota Pagina inicial Home Page
-Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('frontoffice.index');
+    //Rota da Blade Master
+    Route::get('/', [App\Http\Controllers\PageController::class, 'index']);
 
-//Rota Pagina inicial Home Page
-Route::get('/services', [App\Http\Controllers\PageController::class, 'services'])->name('frontoffice.services');
+    //Rota Pagina inicial Home Page
+    Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('frontoffice.index');
 
-//Rota Pagina Contacto
-Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('frontoffice.contact');
+    //Rota Pagina inicial Home Page
+    Route::get('/services', [App\Http\Controllers\PageController::class, 'services'])->name('frontoffice.services');
 
-//Rota Pagina inicial Home Page
-Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->name('frontoffice.about');
+    //Rota Pagina Contacto
+    Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])->name('frontoffice.pages.contact');
+
+    //Rota Pagina inicial Home Page
+    Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->name('frontoffice.about');
+
+});
+
+

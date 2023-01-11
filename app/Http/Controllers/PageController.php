@@ -14,10 +14,6 @@ class PageController extends Controller
         return view('frontoffice.pages.services');
     }
 
-    public function contact(){
-        return view('frontoffice.pages.contact');
-    }
-
     public function about(){
         return view('frontoffice.pages.about');
     }

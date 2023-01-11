@@ -169,7 +169,7 @@
                                         </li>
 
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="{{ route('frontoffice.pages.contact') }}">
                                                 Contactos
                                             </a>
                                         </li>
