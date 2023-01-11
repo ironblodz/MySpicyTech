@@ -21,6 +21,7 @@
         </div>
     </section>
 
+
     <section class="mt-3 mt-xl-0 py-5 p-relative z-index-2">
         <div class="container">
             <div class="row">
@@ -43,7 +44,7 @@
                         </div>
                         <div class="col">
                             <a href="demo-digital-agency-2-dark-our-services-detail.html" class="text-decoration-none">
-<div class="service-card ps-5 py-4 mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-4 line-height-6 text-color-light p-relative">
+                                <div class="service-card ps-5 py-4 mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-4 line-height-6 text-color-light p-relative">
                                     B2B Software
                                 </div>
                             </a>
@@ -57,7 +58,7 @@
                         </div>
                         <div class="col">
                             <a href="demo-digital-agency-2-dark-our-services-detail.html" class="text-decoration-none">
-<div class="service-card ps-5 py-4 mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-4 line-height-6 text-color-light p-relative">
+                                <div class="service-card ps-5 py-4 mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-4 line-height-6 text-color-light p-relative">
                                     Email Marketing
                                 </div>
                             </a>
@@ -71,7 +72,7 @@
                         </div>
                         <div class="col">
                             <a href="demo-digital-agency-2-dark-our-services-detail.html" class="text-decoration-none">
-<div class="service-card ps-5 py-4 mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-4 line-height-6 text-color-light p-relative">
+                                <div class="service-card ps-5 py-4 mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-4 line-height-6 text-color-light p-relative">
                                     Social Media Ads
                                 </div>
                             </a>

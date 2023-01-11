@@ -5,8 +5,7 @@
     <div class="body">
         <div role="main" class="main">
             <!-- ==== Header Principal ==== -->
-            <section class="section custom-circles-container section-angled bg-dark border-0 m-0">
-                <div class="section-angled-layer-bottom section-angled-layer-increase-angle bg-light"></div>
+            <section class="section custom-circles-container section-angled bg-dark border-0 m-0" style="background-image:url(/assets/img/demos/digital-agency-2/bg/); background-size: cover; background-position: center;">
                 <div class="section-angled-content h-100">
                     <div class="container pt-md-5 pb-lg-4 mt-5 mb-lg-5">
                         <div class="row pb-lg-5 mt-5 mb-lg-5">

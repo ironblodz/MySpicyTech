@@ -60,15 +60,15 @@
                                     <ul class="nav nav-pills" id="mainNav">
                                         <!-- Home Page -->
                                         <li class="dropdown">
-                                            <a class="dropdown-item " href="index.html">Home</a>
+                                            <a class="dropdown-item " href="{{route('frontoffice.index')}}">Home</a>
                                         </li>
                                         <!-- Sobre Nos -->
                                         <li class="dropdown">
-                                            <a class="dropdown-item " href="elements.html">Sobre Nós</a>
+                                            <a class="dropdown-item " href="{{route('frontoffice.about')}}">Sobre Nós</a>
                                         </li>
                                         <!-- Serviços -->
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="">Serviços</a>
+                                            <a class="dropdown-item dropdown-toggle" href="{{route('frontoffice.services')}}">Serviços</a>
                                             <ul class="dropdown-menu">
                                                 <li class="dropdown-submenu">
                                                     <a class="dropdown-item" href="#">Web Development</a>
