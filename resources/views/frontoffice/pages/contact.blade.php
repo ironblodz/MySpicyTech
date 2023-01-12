@@ -98,7 +98,9 @@
                             <p class="mb-0">Feel free to ask for details, don't save any questions!</p>
                         </div>
 
-                        <form class="contact-form-recaptcha-v3" action="php/contact-form-recaptcha-v3.php" method="POST">
+                        <form class="contact-form-recaptcha-v3" action="{{ route('create.contact') }}" method="POST">
+                            {{-- token que protege o formulário contra cross-site request forgery --}}
+                            @csrf
                             <div class="contact-form-success alert alert-success d-none mt-4">
                                 <strong>Success!</strong> Your message has been sent to us.
                             </div>

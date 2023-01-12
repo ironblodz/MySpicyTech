@@ -26,8 +26,10 @@ Route::prefix('frontoffice')->group(function(){
     //Rota Pagina inicial Home Page
     Route::get('/services', [App\Http\Controllers\PageController::class, 'services'])->name('frontoffice.services');
 
-    //Rota Pagina Contacto
-    Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])->name('frontoffice.pages.contact');
+    //Rota Pagina para permitir a visualização da vista
+    Route::get('/contact', [App\Http\Controllers\ContactController::class, 'create'])->name('create.contact');
+    //Rota Página de Contacto para tratar da submissão do formulário
+    Route::post('/contact', [App\Http\Controllers\ContactController::class, 'store'])->name('store.contact');
 
     //Rota Pagina inicial Home Page
     Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->name('frontoffice.about');

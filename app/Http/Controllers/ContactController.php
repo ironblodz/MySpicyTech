@@ -14,17 +14,19 @@ class ContactController extends Controller
      */
     public function index()
     {
-       return view('frontoffice.pages.contact');
+
     }
 
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
+
+     * Metodo create retorna a visualização do formulário de contato
      */
     public function create()
     {
-        //
+        return view('frontoffice.pages.contact');
     }
 
     /**
@@ -32,10 +34,21 @@ class ContactController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
+
+     * Metodo Store usado para tratar os dados enviados e guardar na base dados, mas antes de guardar, valida cada campo.
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+
+        'name' => 'required|string|max:255',
+        'email' => 'required|string|max:255',
+        'phone' => 'required|string|max: 9|regex:/^([0-9\s\-\+\(\)]*)$/',
+        'subject' => 'required|string|max: 150',
+        'message' => 'required|string|max: 550',
+        ]);
+
+        return view('frontoffice.pages.contact');
     }
 
     /**

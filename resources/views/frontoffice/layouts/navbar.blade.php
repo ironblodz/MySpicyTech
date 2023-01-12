@@ -175,7 +175,7 @@
                                         </li>
 
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="{{ route('frontoffice.pages.contact') }}">
+                                            <a class="dropdown-item" href="{{ route('create.contact') }}">
                                                 Contactos
                                             </a>
                                         </li>

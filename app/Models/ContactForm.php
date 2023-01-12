@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class ContactForm extends Model
 {
     use HasFactory;
+
+    //Campos especificos inseridos na tabela contacto
+    protected $fillable = ['name', 'email', 'phone','subject','message'];
 }
