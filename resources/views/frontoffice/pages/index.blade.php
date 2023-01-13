@@ -14,7 +14,8 @@
                                     Bem vindos à SpicyTecH
                                 </h2>
                                 <h1 class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850"> 
-                                    Transforme ideias em Websites -> <span class="text-style">S</span>picy<span class="text-style">T</span>ecH.
+                                    Criação de soluções web
+                                    <span class="text-style">S</span>picy<span class="text-style">T</span>ecH.
                                 </h1>
                                 <a href="#intro" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-outline custom-btn-outline btn-primary rounded-md font-weight-semibold text-color-light bg-color-hover-primary custom-btn-with-arrow text-4 btn-px-4 py-3 mt-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100">   Contacte-nos
                                 </a>
@@ -94,38 +95,42 @@
                             </p>
                             <p class="custom-text-3 appear-animation" data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="400">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.
+                            </p>
                             <a herf="demo-digital-agency-2-about-us.html"
                                 class="btn btn-outline custom-btn-outline btn-light border-0 rounded-0 text-color-primary custom-text-5 font-weight-bold custom-btn-with-arrow bg-transparent p-0 appear-animation"
                                 data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
-                                Descubra mais</a>
+                                Descubra mais
+                            </a>
                         </div>
                         <div class="col-lg-4 py-4 py-lg-0">
                             <div class="approach-img bg-color-dark">
                                 <div class="custom-circle custom-circle-1"></div>
                                 <div class="custom-circle custom-circle-2 bg-color-dark"></div>
-                                <span
-                                    class="custom-circle custom-circle-our-approach-deco-1 bg-color-tertiary p-absolute d-block appear-animation"
-                                    data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
-                                <span
-                                    class="custom-circle custom-circle-our-approach-deco-2 bg-color-tertiary p-absolute d-block appear-animation"
-                                    data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
-                                <span
-                                    class="custom-circle custom-circle-our-approach-deco-3 bg-color-tertiary p-absolute d-block appear-animation"
-                                    data-appear-animation="zoomIn" data-appear-animation-delay="100"></span>
+                                <span class="custom-circle custom-circle-our-approach-deco-1 bg-color-tertiary p-absolute d-block appear-animation"
+                                    data-appear-animation="zoomIn" data-appear-animation-delay="100">
+                                </span>
+                                <span class="custom-circle custom-circle-our-approach-deco-2 bg-color-tertiary p-absolute d-block appear-animation"
+                                    data-appear-animation="zoomIn" data-appear-animation-delay="100">
+                                </span>
+                                <span class="custom-circle custom-circle-our-approach-deco-3 bg-color-tertiary p-absolute d-block appear-animation"
+                                    data-appear-animation="zoomIn" data-appear-animation-delay="100">
+                                </span>
                             </div>
                         </div>
                         <div class="col-lg-6 col-xl-4 d-flex align-items-center mt-4 mt-lg-0">
                             <ul class="custom-list list-unstyled ms-xl-2 ps-xl-1">
                                 <li class="font-weight-medium custom-text-4 mb-4 appear-animation"
                                     data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
-                                    Pellentesque ultricies nibh lorem ipsum</li>
-                                <li class="font-weight-medium custom-text-4 mb-4 appear-animation"
-                                    data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">Ultricies
-                                    nibh pellen</li>
+                                    Pellentesque ultricies nibh lorem ipsum
+                                </li>
+                                <li class="font-weight-medium custom-text-4 mb-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
+                                    Apoio ao cliente 24h
+                                </li>
                                 <li class="font-weight-medium custom-text-4 appear-animation"
                                     data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
-                                    Pellentesque ultricies nibh</li>
+                                    Pellentesque ultricies nibh
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -146,7 +151,7 @@
                                                 class="w-100 custom-our-work-text p-5 d-flex align-items-end p-absolute bottom-0">
                                                 <div class="text-start p-relative z-index-2 mb-3">
                                                     <h4
-                                                        class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">
+                                                        class="text-color-light custom-text-10 font-weight-bold text-decoration-none mb-2">
                                                         Katrina
                                                     </h4>
                                                     <p class="text-uppercase custom-text-4 text-color-quaternary text-decoration-none mb-3">
@@ -172,7 +177,7 @@
                                                 <div class="text-start p-relative z-index-2 mb-3">
                                                     <h4
                                                         class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">
-                                                        ColiWorld
+                                                        Coliworld
                                                     </h4>
                                                     <p
                                                         class="text-uppercase custom-text-4 text-color-quaternary text-decoration-none mb-3">
@@ -198,12 +203,10 @@
                                                         class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">
                                                         Jorparts
                                                     </h4>
-                                                    <p
-                                                        class="text-uppercase custom-text-4 text-color-quaternary text-decoration-none mb-3">
+                                                    <p class="text-uppercase custom-text-4 text-color-quaternary text-decoration-none mb-3">
                                                         Peças, Acessórios e Máquinas
                                                     </p>
-                                                    <span
-                                                        class="custom-text-4 font-weight-semibold m-0 p-0 text-color-light custom-btn-with-arrow custom-btn-with-arrow-primary text-decoration-none">
+                                                    <span class="custom-text-4 font-weight-semibold m-0 p-0 text-color-light custom-btn-with-arrow custom-btn-with-arrow-primary text-decoration-none">
                                                         Ver projeto
                                                     </span>
                                                 </div>
@@ -218,7 +221,7 @@
                                             <div  class="w-100 custom-our-work-text p-5 d-flex align-items-end p-absolute bottom-0">
                                                 <div class="text-start p-relative z-index-2 mb-3">
                                                     <h4 class="text-color-light custom-text-9 font-weight-bold text-decoration-none mb-2">
-                                                        Endless Glamour
+                                                        EndlessGlamour
                                                     </h4>
                                                     <p  class="text-uppercase custom-text-4 text-color-quaternary text-decoration-none mb-3">
                                                         Estética e Cabeleireiros
@@ -238,70 +241,39 @@
                                 <div data-plugin-sticky
                                     data-plugin-options="{'minWidth': 991, 'containerSelector': '.sticky-container', 'padding': {'top': 100}}">
                                     <div class="py-5 my-2 ps-5 pe-0">
-                                        <h4
-                                            class="text-color-light custom-text-10 font-weight-bold custom-title-with-icon custom-title-with-icon-primary">
-                                            Portfólio</h4>
-                                        <ul class="list-unstyled sort-source" data-sort-id="portfolio"
-                                            data-option-key="filter">
+                                        <h4 class="text-color-light custom-text-10 font-weight-bold custom-title-with-icon custom-title-with-icon-primary">
+                                            Portfólio
+                                        </h4>
+                                        <ul class="list-unstyled sort-source" data-sort-id="portfolio" data-option-key="filter">
                                             <li class="nav-item active" data-option-value="*">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">View
-                                                    All</a>
+                                                <a href="#ourWork" data-hash data-hash-offset="0" data-hash-offset-lg="100"
+                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">
+                                                    Ver todos
+                                                </a>
                                             </li>
                                             <li class="nav-item" data-option-value=".ui-design">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">UI
-                                                    Design</a>
+                                                <a href="#ourWork" data-hash data-hash-offset="0" data-hash-offset-lg="100"
+                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">
+                                                    Websites
+                                                </a>
                                             </li>
                                             <li class="nav-item" data-option-value=".web-development">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">Web
-                                                    Development</a>
+                                                <a href="#ourWork" data-hash data-hash-offset="0" data-hash-offset-lg="100"
+                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">
+                                                    E-commerces
+                                                </a>
                                             </li>
                                             <li class="nav-item" data-option-value=".b2b-software">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">B2B
-                                                    Software</a>
+                                                <a href="#ourWork" data-hash data-hash-offset="0" data-hash-offset-lg="100"
+                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">
+                                                    Landing Pages
+                                                </a>
                                             </li>
                                             <li class="nav-item" data-option-value=".content-marketing">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">Content
-                                                    Marketing</a>
-                                            </li>
-                                            <li class="nav-item" data-option-value=".email-marketing">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">Email
-                                                    Marketing</a>
-                                            </li>
-                                            <li class="nav-item" data-option-value=".search-engine-optimize">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">Search
-                                                    Engine Optimize</a>
-                                            </li>
-                                            <li class="nav-item" data-option-value=".social-media-ads">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">Social
-                                                    Media Ads</a>
-                                            </li>
-                                            <li class="nav-item" data-option-value=".brand-and-identity">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">Brand
-                                                    and Identity</a>
-                                            </li>
-                                            <li class="nav-item" data-option-value=".content-strategy">
-                                                <a href="#ourWork" data-hash data-hash-offset="0"
-                                                    data-hash-offset-lg="100"
-                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">Content
-                                                    Strategy</a>
+                                                <a href="#ourWork" data-hash data-hash-offset="0" data-hash-offset-lg="100"
+                                                    class="text-color-quaternary text-color-hover-light text-decoration-none mb-2 py-0 d-block">
+                                                    Portfólios
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
@@ -322,46 +294,39 @@
                         </h4>
                     </div>
                     <div class="row">
-                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter"
-                            data-appear-animation-delay="200">
+                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
-                                <div
-                                    class="service-card mb-4 bg-color-tertiary bg-color-hover-primary text-color-hover-light w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark p-relative">
+                                <div class="service-card mb-4 bg-color-tertiary bg-color-hover-primary text-color-hover-light w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark p-relative">
                                     Web Development
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter"
-                            data-appear-animation-delay="300">
+                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
-                                <div
-                                    class="service-card mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-6 line-height-6 text-color-light p-relative">
+                                <div class="service-card mb-4 bg-color-tertiary bg-color-hover-primary w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark text-color-hover-light p-relative">
                                     SEO Optimizado
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter"
-                            data-appear-animation-delay="400">
+                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
                                 <div
                                     class="service-card mb-4 bg-color-tertiary bg-color-hover-primary text-color-hover-light w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark p-relative">
-                                    Logótipos
+                                    Design Logótipos
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter"
-                            data-appear-animation-delay="500">
+                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="500">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
                                 <div
-                                    class="service-card mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-6 line-height-6 text-color-light p-relative">
+                                    class="service-card mb-4 bg-color-tertiary bg-color-hover-primary w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark text-color-hover-light p-relative">
                                     Anúncios (ADS)
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter"
-                            data-appear-animation-delay="600">
+                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
                                 <div
                                     class="service-card mb-4 bg-color-tertiary bg-color-hover-primary text-color-hover-light w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark p-relative">
@@ -369,24 +334,26 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter"
-                            data-appear-animation-delay="700">
+                        <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="700">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
                                 <div
-                                    class="service-card mb-4 bg-color-dark bg-color-hover-primary w-100 font-weight-semibold custom-text-6 line-height-6 text-color-light p-relative">
+                                    class="service-card mb-4 bg-color-tertiary bg-color-hover-primary w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark text-color-hover-light p-relative">
                                     Fotografia | Vídeo
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-xl-9">
-                            <p class="custom-text-4 mt-4 mb-0 text-center appear-animation"
-                                data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at massa quam. Maecenas et
-                                sem accumsan, dictum arcu eu, consectetur eros. Nulla tortor est, lobortis vestibulum turpis
-                                sed, mollis commodo orci.
-                            </p>
+                    <div class="row justify-content-center ">
+
+                        <div class="col-xl-2">
+                             <a href="{{ route('frontoffice.services') }}" class="btn btn-modern btn-swap-1 col-12">
+                                <span>
+                                    <i class="fa-solid fa-plus"></i>
+                                </span>
+                                <span>
+                                    Ver Serviços <i class="fas fa-arrow-right ms-2"></i>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -394,84 +361,83 @@
 
             <!-- ==== TESTEMUNHOS ==== -->
             <section class="section bg-color-grey-scale-1 section-height-3 border-0 m-0">
-            <div class="container pb-2">
-                <div class="row">
-                    <div class="col-lg-6 text-center text-md-start mb-5 mb-lg-0">
-                        <h2 class="text-color-dark font-weight-normal text-6 mb-2">
-                            Sobre os
-                            <strong class="font-weight-extra-bold">Nossos clientes</strong>
-                        </h2>
-                        <p class="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit massa
-                            enim. Nullam id varius nunc.
-                        </p>
-                        <div class="row justify-content-center my-5">
-                            <div class="col-8 text-center col-md-4">
-                                <img src="img/logos/logo-1.png" class="img-fluid hover-effect-3" alt="" />
-                            </div>
-                            <div class="col-8 text-center col-md-4 my-3 my-md-0">
-                                <img src="img/logos/logo-2.png" class="img-fluid hover-effect-3" alt="" />
-                            </div>
-                            <div class="col-8 text-center col-md-4">
-                                <img src="img/logos/logo-3.png" class="img-fluid hover-effect-3" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="owl-carousel owl-theme nav-style-1 stage-margin"
-                            data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 1}, '992': {'items': 1}, '1200': {'items': 1}}, 'loop': true, 'nav': false, 'dots': false, 'stagePadding': 40, 'autoplay': true, 'autoplayTimeout': 6000, 'loop': true}">
-                            <div>
-                                <div
-                                    class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
-                                    <div class="testimonial-author">
-                                        <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle mb-0" alt="" />
-                                    </div>
-                                    <blockquote>
-                                        <p class="text-color-dark text-4 line-height-5 mb-0">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                                            elit. Morbi vitae metus tellus. Curabitur non lorem at
-                                            odio tempus consectetur vel eu lacus. Morbi.
-                                        </p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p>
-                                            <strong class="font-weight-extra-bold text-2">Fábio Joaninho</strong><span>Web Developer</span>
-                                        </p>
-                                    </div>
-
+                <div class="container pb-2">
+                    <div class="row">
+                        <div class="col-lg-6 text-center text-md-start mb-5 mb-lg-0">
+                            <h2 class="text-color-dark font-weight-normal text-6 mb-2">
+                                Sobre os
+                                <strong class="font-weight-extra-bold">Nossos clientes</strong>
+                            </h2>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit massa
+                                enim. Nullam id varius nunc.
+                            </p>
+                            <div class="row justify-content-center my-5">
+                                <div class="col-8 text-center col-md-4">
+                                    <img src="/assets/img/logos/google1.png" class="img-fluid hover-effect-3" alt="" />
+                                </div>
+                                <div class="col-8 text-center col-md-4 my-3 my-md-0">
+                                    <img src="/assets/img/logos/google1.png" class="img-fluid hover-effect-3" alt="" />
+                                </div>
+                                <div class="col-8 text-center col-md-4">
+                                    <img src="/assets/img/logos/google1.png" class="img-fluid hover-effect-3" alt="" />
                                 </div>
                             </div>
-                            <div>
-                                <div
-                                    class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
-                                    <div class="testimonial-author">
-                                        <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle mb-0" alt="" />
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="owl-carousel owl-theme nav-style-1 stage-margin"
+                                data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 1}, '992': {'items': 1}, '1200': {'items': 1}}, 'loop': true, 'nav': false, 'dots': false, 'stagePadding': 40, 'autoplay': true, 'autoplayTimeout': 6000, 'loop': true}">
+                                <div>
+                                    <div
+                                        class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
+                                        <div class="testimonial-author">
+                                            <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle mb-0" alt="" />
+                                        </div>
+                                        <blockquote>
+                                            <p class="text-color-dark text-4 line-height-5 mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Morbi vitae metus tellus. Curabitur non lorem at
+                                                odio tempus consectetur vel eu lacus. Morbi.
+                                            </p>
+                                        </blockquote>
+                                        <div class="testimonial-author">
+                                            <p>
+                                                <strong class="font-weight-extra-bold text-2">Fábio Joaninho</strong><span>Web Developer</span>
+                                            </p>
+                                        </div>
+
                                     </div>
-                                    <blockquote>
-                                        <p class="text-color-dark text-4 line-height-5 mb-0">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                                            elit. Morbi vitae metus tellus. Curabitur non lorem at
-                                            odio tempus consectetur vel eu lacus. Morbi.
-                                        </p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p>
-                                            <strong class="font-weight-extra-bold text-2">João Peres</strong><span>Web Developer</span>
-                                        </p>
+                                </div>
+                                <div>
+                                    <div
+                                        class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
+                                        <div class="testimonial-author">
+                                            <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle mb-0" alt="" />
+                                        </div>
+                                        <blockquote>
+                                            <p class="text-color-dark text-4 line-height-5 mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Morbi vitae metus tellus. Curabitur non lorem at
+                                                odio tempus consectetur vel eu lacus. Morbi.
+                                            </p>
+                                        </blockquote>
+                                        <div class="testimonial-author">
+                                            <p>
+                                                <strong class="font-weight-extra-bold text-2">João Peres</strong><span>Web Developer</span>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
 
-            <section
-                class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden mt-5"
-                style="background-image: url(asset('assets/img/demos/digital-agency-2/bg/bg.1.jpg')); 
-                background-size: cover; background-position: center;">
+            <section class="get-in-touch bg-color-after-secondary overlay overlay-color-primary overlay-show p-relative overflow-hidden mt-5"
+                style="background-image: url(/assets/img/demos/digital-agency-2/bg/office2.jpeg); background-size: cover; 
+                background-position: center;">
                 <span class="custom-circle custom-circle-1 bg-color-light appear-animation" data-appear-animation="zoomIn"
                     data-appear-animation-delay="100"></span>
                 <span class="custom-circle custom-circle-2 bg-color-light appear-animation" data-appear-animation="zoomIn"
@@ -489,11 +455,10 @@
                                 Sobre o seu negócio.
                             </h4>
                         </div>
-                        <div
-                            class="col-lg-4 d-flex align-items-center justify-content-start justify-content-lg-end mt-5 mt-lg-0">
-                            <a herf="#"
-                                class="btn btn-outline custom-btn-outline btn-light border-white rounded-0 px-4 py-3 text-color-light text-color-hover-dark bg-color-hover-light custom-text-6 line-height-6 font-weight-semibold custom-btn-with-arrow appear-animation"
-                                data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="600">Anda cá Canita!</a>
+                        <div class="col-lg-4 d-flex align-items-center justify-content-start justify-content-lg-end mt-5 mt-lg-0">
+                            <a herf="#" class="btn btn-outline custom-btn-outline btn-light border-white rounded-0 px-4 py-3 text-color-light text-color-hover-dark bg-color-hover-light custom-text-5 line-height-2 font-weight-semibold custom-btn-with-arrow appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="600">
+                            Anda cá Canita!
+                            </a>
                         </div>
                     </div>
                 </div>
