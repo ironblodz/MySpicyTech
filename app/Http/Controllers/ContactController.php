@@ -48,6 +48,21 @@ class ContactController extends Controller
         'message' => 'required|string|max: 550',
         ]);
 
+        //Guardar dados na base dados
+        Contact::create($request->all());
+
+        //Enviar email através do mailtrap
+        \Mail::send('mail', array(
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
+            'subject' => $request->get('subject'),
+            'user_query' => $request->get('message'),
+        ), function ($message) use ($request){
+            $message->from($request->email);
+            $message-to('iamjoaoperes19@outlook.com', 'Admin'->subject($request->get('subject')));
+        });
+        return back()->with('success', 'O formulário foi enviado com sucesso');
         return view('frontoffice.pages.contact');
     }
 

@@ -114,28 +114,53 @@
                                 <div class="form-group col-lg-6">
                                     <label class="form-label mb-1 text-2">Full Name</label>
                                     <input type="text" value="" data-msg-required="Please enter your name."
-                                        maxlength="100" class="form-control text-3 h-auto py-2" name="name" required>
+                                        maxlength="100" class="form-control text-3 h-auto py-2 {{ $errors->has('name') ? 'error' : '' }}" name="name" required>
+                                        {{-- Apresentar mensagem de erro, no campo name --}}
+                                        @if ($errors->has('name'))
+                                        <div class="error">
+                                            {{ $errors->first('name') }}
+                                        </div>
+                                    @endif
                                 </div>
                                 <div class="form-group col-lg-6">
-                                    <label class="form-label mb-1 text-2">Email Address</label>
+                                    <label class="form-label mb-1 text-2 {{ $errors->has('email') ? 'error' : '' }}">Email Address</label>
                                     <input type="email" value=""
                                         data-msg-required="Please enter your email address."
                                         data-msg-email="Please enter a valid email address." maxlength="100"
                                         class="form-control text-3 h-auto py-2" name="email" required>
+                                    {{-- Aresentar mensagem de erro, no campo email --}}
+                                    @if ($errors->has('email'))
+                                        <div class="error">
+                                            {{ $errors->first('email') }}
+                                        </div>
+                                    @endif
+
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col">
                                     <label class="form-label mb-1 text-2">Subject</label>
                                     <input type="text" value="" data-msg-required="Please enter the subject."
-                                        maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
+                                        maxlength="100" class="form-control text-3 h-auto py-2 {{ $error->has('subject') ? 'error' : ''}}" name="subject" required>
+                                    {{-- Apresentar mensagem de erro, no campo subject --}}
+                                    @if ($errors->has('subject'))
+                                        <div class="error">
+                                            {{ $errors->first('subject') }}
+                                        </div>
+                                    @endif
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col">
                                     <label class="form-label mb-1 text-2">Message</label>
                                     <textarea maxlength="5000" data-msg-required="Please enter your message." rows="5"
-                                        class="form-control text-3 h-auto py-2" name="message" required></textarea>
+                                        class="form-control text-3 h-auto py-2 {{ $error->has('message') ? 'error' : '' }}" name="message" required></textarea>
+                                    {{-- Apresentar mensagem de erro, no campo mensagem --}}
+                                    @if ($errors - has('message'))
+                                        <div class="error">
+                                            {{ $errors->first('message') }}
+                                        </div>
+                                    @endif
                                 </div>
                             </div>
                             <div class="row">
