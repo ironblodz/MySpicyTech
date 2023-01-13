@@ -4,7 +4,7 @@
 
     <div class="body">
         <div role="main" class="main">
-            <!-- ==== Header Principal ==== -->
+            {{-- ==== Header Principal ==== --}}
             <section class="section custom-circles-container section-angled bg-dark border-0 m-0" style="background-image:url(/assets/img/demos/digital-agency-2/bg/); background-size: cover; background-position: center;">
                 <div class="section-angled-content h-100">
                     <div class="container pt-md-5 pb-lg-4 mt-5 mb-lg-5">
@@ -29,7 +29,7 @@
             <section class="custom-cards p-relative mb-5 pb-5 z-index-2">
                 <div class="container">
                     <div class="row">
-                        <!-- ==== card info 1 ==== -->
+                        {{-- ==== card info 1 ====  --}}
                         <div class="col-lg-4 col-custom-cards">
                             <div class="card border-0 bg-color-dark rounded-0 z-index-1 p-5 appear-animation"
                                 data-appear-animation="maskUp" data-appear-animation-delay="100">
@@ -44,7 +44,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- ==== card info 2 ==== -->
+                        {{-- ==== card info 2 ====  --}}
                         <div class="col-lg-4 col-custom-cards">
                             <div class="card border-0 bg-color-primary rounded-0 z-index-1 p-5 appear-animation"
                                 data-appear-animation="maskUp" data-appear-animation-delay="200">
@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- ==== card info 3 ==== -->
+                        {{-- ==== card info 3 ====  --}}
                         <div class="col-lg-4 col-custom-cards">
                             <div class="card border-0 bg-color-dark rounded-0 z-index-1 p-5 appear-animation"
                                 data-appear-animation="maskUp" data-appear-animation-delay="300">
@@ -80,7 +80,7 @@
                 </div>
             </section>
 
-            <!-- ==== Nossa Abordagem ==== -->
+            {{-- ==== Nossa Abordagem ====  --}}
             <section class="our-approach py-5 mb-4 mb-xl-5 mt-4 mt-xl-0 p-relative z-index-1" id="intro">
                 <div class="container">
                     <div class="row">
@@ -359,7 +359,7 @@
                 </div>
             </section>
 
-            <!-- ==== TESTEMUNHOS ==== -->
+            {{-- ==== TESTEMUNHOS ====  --}}
             <section class="section bg-color-grey-scale-1 section-height-3 border-0 m-0">
                 <div class="container pb-2">
                     <div class="row">

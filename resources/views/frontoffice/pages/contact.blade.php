@@ -141,7 +141,7 @@
                                 <div class="form-group col">
                                     <label class="form-label mb-1 text-2">Subject</label>
                                     <input type="text" value="" data-msg-required="Please enter the subject."
-                                        maxlength="100" class="form-control text-3 h-auto py-2 {{ $error->has('subject') ? 'error' : ''}}" name="subject" required>
+                                        maxlength="100" class="form-control text-3 h-auto py-2 {{ $errors->has('subject') ? 'error' : ''}}" name="subject" required>
                                     {{-- Apresentar mensagem de erro, no campo subject --}}
                                     @if ($errors->has('subject'))
                                         <div class="error">
@@ -154,9 +154,9 @@
                                 <div class="form-group col">
                                     <label class="form-label mb-1 text-2">Message</label>
                                     <textarea maxlength="5000" data-msg-required="Please enter your message." rows="5"
-                                        class="form-control text-3 h-auto py-2 {{ $error->has('message') ? 'error' : '' }}" name="message" required></textarea>
+                                        class="form-control text-3 h-auto py-2 {{ $errors->has('message') ? 'error' : '' }}" name="message" required></textarea>
                                     {{-- Apresentar mensagem de erro, no campo mensagem --}}
-                                    @if ($errors - has('message'))
+                                    @if ($errors-> has('message'))
                                         <div class="error">
                                             {{ $errors->first('message') }}
                                         </div>
