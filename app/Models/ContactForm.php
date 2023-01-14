@@ -10,5 +10,5 @@ class ContactForm extends Model
     use HasFactory;
 
     //Campos especificos inseridos na tabela contacto
-    protected $fillable = ['name', 'email', 'phone','subject','message'];
+    protected $fillable = ['name', 'surname', 'email', 'phone', 'subject','message'];
 }

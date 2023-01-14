@@ -3,8 +3,7 @@
 @section('content')
     <div role="main" class="main">
 
-        <section class="page-header page-header-modern page-header-background bg-color-dark p-relative z-index-1 lazyload"
-            data-bg-src="{{ asset('assets/img/demos/digital-agency-2/bg/page-header-bg.jpg') }}">
+        <section class="page-header page-header-modern page-header-background bg-color-dark p-relative z-index-1 lazyload" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 53, 'stickySetTop': '-53px'}">
             <span class="custom-circle custom-circle-1 bg-color-light custom-circle-blur appear-animation"
                 data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400"></span>
             <span class="custom-circle custom-circle-2 bg-color-primary appear-animation" data-appear-animation="zoomIn"
@@ -21,7 +20,7 @@
                         <h1 class="custom-text-10 font-weight-bold">Contate-nos</h1>
                     </div>
                 </div>
-            </div><i class="fa fa-share-square" aria-hidden="true"></i>
+            </div>
         </section>
 
         <section class="mt-3 mt-xl-0 py-5 p-relative z-index-2">
@@ -114,7 +113,7 @@
 
                             <div class="row">
                                 <div class="form-group col-lg-6">
-                                    <label class="form-label mb-1 text-2">O seu Nome</label>
+                                    <label class="form-label mb-1 text-2">Nome</label>
                                     <input type="text" value="" data-msg-required="Please enter your name."
                                         maxlength="100"
                                         class="form-control text-3 h-auto py-2 {{ $errors->has('name') ? 'error' : '' }}"
@@ -127,7 +126,7 @@
                                     @endif
                                 </div>
                                 <div class="form-group col-lg-6">
-                                    <label class="form-label mb-1 text-2">O seu Apelido</label>
+                                    <label class="form-label mb-1 text-2">Apelido</label>
                                     <input type="text" value="" data-msg-required="Please enter your name."
                                         maxlength="100"
                                         class="form-control text-3 h-auto py-2 {{ $errors->has('surname') ? 'error' : '' }}"
@@ -140,8 +139,21 @@
                                     @endif
                                 </div>
                                 <div class="form-group col-lg-6">
+                                    <label class="form-label mb-1 text-2">Telemóvel</label>
+                                    <input type="tel" value="" data-msg-required="Please enter your phone."
+                                        maxlength="100"
+                                        class="form-control text-3 h-auto py-2 {{ $errors->has('phone') ? 'error' : '' }}"
+                                        name="tel" required>
+                                    {{-- Apresentar mensagem de erro, no campo name --}}
+                                    @if ($errors->has('phone'))
+                                        <div class="error">
+                                            {{ $errors->first('phone') }}
+                                        </div>
+                                    @endif
+                                </div>
+                                <div class="form-group col-lg-6">
                                     <label
-                                        class="form-label mb-1 text-2 {{ $errors->has('email') ? 'error' : '' }}">Email</label>
+                                        class="form-label mb-1 text-2 {{ $errors->has('email') ? 'error' : '' }}"> O seu Email</label>
                                     <input type="email" value=""
                                         data-msg-required="Please enter your email address."
                                         data-msg-email="Please enter a valid email address." maxlength="100"

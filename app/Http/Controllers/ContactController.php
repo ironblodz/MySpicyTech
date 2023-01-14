@@ -57,7 +57,7 @@ class ContactController extends Controller
                 $responseData = json_decode(curl_exec($verifyResponse));
                 curl_close($verifyResponse);
             } else {
-                $arrResult = array ('response'=>'error','errorMessage'=>'You need CURL or file_get_contents() activated in your server. Please contact your host to activate.');
+                $arrResult = array ('response'=>'error','errorMessage'=>'É necessário ter o CURL ou file_get_contents() ativado no seu servidor. Entre em contato com o seu host para ativar..');
                 echo json_encode($arrResult);
                 die();
             }
@@ -65,12 +65,13 @@ class ContactController extends Controller
             if($responseData->success) {
 
                 //Passo 1 - Digite seu endereço de e-mail abaixo.
-                $email = 'naylestorm12@gmail.com';
+                $email = 'exemplodeemail@gmail.com';
 
                 //Se o e-mail não estiver a funcionar, altere a opção de depuração para 2 | $depuração = 2;
                 $debug = 0;
 
                 //Se o formulário de contato não tiver a entrada do assunto, altere o valor do assunto aqui
+
                 $subject = ( isset($_POST['subject']) ) ? $_POST['subject'] : 'Define subject in php/contact-form-recaptcha.php line 62';
 
                 $message = '';
@@ -176,7 +177,7 @@ class ContactController extends Controller
         'name' => 'required|string|max:255',
         'surname' => 'required|string|max:255',
         'email' => 'required|string|max:255',
-        'phone' => 'required|string|max: 9|regex:/^([0-9\s\-\+\(\)]*)$/',
+        'phone' => 'required|string|max:9',
         'subject' => 'required|string|max: 150',
         'message' => 'required|string|max: 550',
         ]);
