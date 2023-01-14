@@ -55,6 +55,7 @@
     <!-- Head Libs -->
     <script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
 
+<<<<<<< Updated upstream
 
 </head>
 
@@ -66,6 +67,20 @@
             <div class="cssload-float-bars-container">
                 <ul class="cssload-float-bars-flex-container">
                     <li><span class="cssload-float-bars-loading"></span></li>
+=======
+	</head>
+	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}" 
+	data-plugin-cursor-effect data-plugin-options="{'size': 'normal'}">
+
+        <!-- ===== PRE LOADER ===== -->
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="cssload-float-bars-container">
+                    <ul class="cssload-float-bars-flex-container">
+                        <li><span class="cssload-float-bars-loading"></span></li>
+                    </div>
+                </div>
+>>>>>>> Stashed changes
             </div>
         </div>
     </div>

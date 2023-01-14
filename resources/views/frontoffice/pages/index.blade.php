@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         {{-- ==== card info 2 ====  --}}
-                        <div class="col-lg-4 col-custom-cards">
+                        <div class="col-lg-4 col-custom-cards" data-cursor-effect-hover="point" data-cursor-effect-hover-color="light">
                             <div class="card border-0 bg-color-primary rounded-0 z-index-1 p-5 appear-animation"
                                 data-appear-animation="maskUp" data-appear-animation-delay="200">
                                 <div class="card-body d-flex flex-column justify-content-center align-items-center p-0 my-3">
@@ -293,7 +293,7 @@
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Nós ajudamos com:
                         </h4>
                     </div>
-                    <div class="row">
+                    <div class="row" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                         <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
                                 <div class="service-card mb-4 bg-color-tertiary bg-color-hover-primary text-color-hover-light w-100 font-weight-semibold custom-text-6 line-height-6 text-color-dark p-relative">
@@ -317,7 +317,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                         <div class="col-xl-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="500">
                             <a href="demo-digital-agency-2-our-services-detail.html" class="text-decoration-none">
                                 <div
