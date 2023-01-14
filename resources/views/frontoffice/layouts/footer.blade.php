@@ -25,17 +25,17 @@
                 <div class="row">
                     <div class="col-md-6">
                         <span class="d-block text-start text-lg-end text-color-light font-weight-semibold text-5 pb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-                        Los Angeles
+                            Leiria
                     </span>
-                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="150">123 The Main Street</p>
-                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Los Angeles, CA 1000</p>
-                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250"><a href="tel:+1234567890" class="text-color-default">(123) 456-7890</a></p>
+                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="150">Avenida Marquês de Pombal</p>
+                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">2400, Leiria</p>
+                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250"><a href="tel:+351919846123" class="text-color-default">(351) 919846123</a></p>
                     </div>
                     <div class="col-md-6 mt-3 mt-md-0">
-                        <span class="d-block text-start text-lg-end text-color-light font-weight-semibold text-5 pb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">New York</span>
-                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="150">123 The Main Street</p>
-                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">New York, NY 1000</p>
-                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250"><a href="tel:+1234567890" class="text-color-default">(123) 456-7890</a></p>
+                        <span class="d-block text-start text-lg-end text-color-light font-weight-semibold text-5 pb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">Coimbra</span>
+                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="150">Rua da Graça</p>
+                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">3000, Coimbra</p>
+                        <p class="mb-0 text-start text-lg-end text-4 font-weight-medium appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250"><a href="tel:+351919846123" class="text-color-default">(351) 919846123</a></p>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
             </div>
             <div class="col-sm-12 col-lg-5 col-xl-6">
                 <div class="d-flex justify-content-end custom-footer-copywriting pt-5 mt-0 mt-lg-4">
-                    <p class="mb-0 text-start text-lg-end d-block w-100 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300">Porto Digital Agency. ©  2022.  All Rights Reserved</p>
+                    <p class="mb-0 text-start text-lg-end d-block w-100 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300">SpicyTech. ©  2022.  All Rights Reserved</p>
                 </div>
             </div>
         </div>
