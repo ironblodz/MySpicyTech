@@ -151,6 +151,7 @@ class ContactController extends Controller
 
             } else {
                 $arrResult = array ('response'=>'error','errorMessage'=>'reCaptcha Error: Verifcation failed (no success). Please contact the website administrator.');
+                dd($arrResult);
                 echo json_encode($arrResult);
             }
 

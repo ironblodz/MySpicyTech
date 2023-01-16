@@ -8,10 +8,13 @@
 
     <title>SpicyTecH</title>
 
-    <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Porto - Multipurpose Website Template">
-    <meta name="author" content="okler.net">
-
+    <meta name="keywords" content="WebSite Template">
+    <meta name="description" content="SpicyTech - Criação de soluções web">
+    <meta name="author" content="João Peres and Fábio Joaninho">
+    <meta http-equiv="refresh" content="30">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SpicyTech">
+    <meta property="og:description" content="Webdesign, Websites, SEO, Marketing">
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}" type="image/x-icon" />
     <link rel="apple-touch-icon" href="{{ asset('assets/img/apple-touch-icon.png') }}">
@@ -33,7 +36,6 @@
     <link rel="stylesheet" href="{{ asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendor/magnific-popup/magnific-popup.min.css') }}">
-
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/theme-elements.css') }}">
@@ -55,7 +57,7 @@
     <script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
 
 	</head>
-<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}" 
+<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 50, 'effect': 'floatBars'}"
 	data-plugin-cursor-effect data-plugin-options="{'size': 'normal'}">
 
         <!-- ===== PRE LOADER ===== -->
@@ -109,7 +111,7 @@
     <!-- Examples -->
     <script src="{{ asset('assets/js/examples/examples.particles.js') }}"></script>
 
-    
+
 
 
 </body>
