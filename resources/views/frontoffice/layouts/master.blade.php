@@ -8,9 +8,13 @@
 
     <title>SpicyTecH</title>
 
-    <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Porto - Multipurpose Website Template">
-    <meta name="author" content="okler.net">
+    <meta name="keywords" content="WebSite Template">
+    <meta name="description" content="SpicyTech - Criação de soluções web">
+    <meta name="author" content="João Peres and Fábio Joaninho">
+    <meta http-equiv="refresh" content="30">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SpicyTech">
+    <meta property="og:description" content="Webdesign, Websites, SEO, Marketing">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}" type="image/x-icon" />
