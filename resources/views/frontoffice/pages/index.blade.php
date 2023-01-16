@@ -322,130 +322,208 @@
             {{-- Serviços --}}
             <section class="section section-height-4 section-with-shape-divider bg-color-grey-scale-1 border-0 pb-5 m-0">
                 <div class="shape-divider" style="height: 123px;">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 123" preserveAspectRatio="xMinYMin">
-                        <polygon fill="#F3F3F3" points="0,90 221,60 563,88 931,35 1408,93 1920,41 1920,-1 0,-1 "/>
-                        <polygon fill="#FFFFFF" points="0,75 219,44 563,72 930,19 1408,77 1920,25 1920,-1 0,-1 "/>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" viewBox="0 0 1920 123" preserveAspectRatio="xMinYMin">
+                        <polygon fill="#F3F3F3" points="0,90 221,60 563,88 931,35 1408,93 1920,41 1920,-1 0,-1 " />
+                        <polygon fill="#FFFFFF" points="0,75 219,44 563,72 930,19 1408,77 1920,25 1920,-1 0,-1 " />
                     </svg>
                 </div>
                 <div class="container mt-4">
                     <div class="row justify-content-center">
                         <div class="col-lg-11 col-xl-10 text-center">
-                            <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">WHAT WE DO</h2>
-                            <h3 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Our Premium Services</h3>
-                            <p class="text-3-5 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet leo acun volutpat. Suspendisse hendrerit vehicula leo, vel efficitur fel. </p>
+                            <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation"
+                                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">WHAT WE DO</h2>
+                            <h3 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-3 pb-1 appear-animation"
+                                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Our Premium
+                                Services</h3>
+                            <p class="text-3-5 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
+                                data-appear-animation-delay="750">Cras a elit sit amet leo accumsan volutpat. Suspendisse
+                                hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet leo acun
+                                volutpat. Suspendisse hendrerit vehicula leo, vel efficitur fel. </p>
                         </div>
                     </div>
-                    <div class="row row-gutter-sm justify-content-center mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
+                    <div class="row row-gutter-sm justify-content-center mb-5 appear-animation"
+                        data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
                         <div class="col-sm-9 col-md-6 col-lg-4 mb-4">
-                            <a href="demo-business-consulting-3-services-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                            <a href="demo-business-consulting-3-services-detail.html"
+                                class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                                 <div class="card box-shadow-4">
                                     <div class="card-img-top position-relative overlay overlay-show">
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Sales & Marketing</h4>
+                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Sales & Marketing
+                                            </h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26"
+                                                    src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}"
+                                                    alt="" data-icon
+                                                    data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                                    style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-1.jpg') }}" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-1.jpg') }}"
+                                            class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
+                                            hendrerit. </p>
+                                        <img width="50" height="50" class="w-auto"
+                                            src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
+                                            alt="" data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                            style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-9 col-md-6 col-lg-4 mb-4">
-                            <a href="demo-business-consulting-3-services-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                            <a href="demo-business-consulting-3-services-detail.html"
+                                class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                                 <div class="card box-shadow-4">
                                     <div class="card-img-top position-relative overlay overlay-show">
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Strategic Planning</h4>
+                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Strategic
+                                                Planning</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26"
+                                                    src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}"
+                                                    alt="" data-icon
+                                                    data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                                    style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-2.jpg') }}" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-2.jpg') }}"
+                                            class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
+                                            hendrerit. </p>
+                                        <img width="50" height="50" class="w-auto"
+                                            src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
+                                            alt="" data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                            style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-9 col-md-6 col-lg-4 mb-4">
-                            <a href="demo-business-consulting-3-services-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                            <a href="demo-business-consulting-3-services-detail.html"
+                                class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                                 <div class="card box-shadow-4">
                                     <div class="card-img-top position-relative overlay overlay-show">
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Operations</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26"
+                                                    src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}"
+                                                    alt="" data-icon
+                                                    data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                                    style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-3.jpg') }}" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-3.jpg') }}"
+                                            class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="img/demos/business-consulting-3/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
+                                            hendrerit. </p>
+                                        <img width="50" height="50" class="w-auto"
+                                            src="img/demos/business-consulting-3/icons/arrow-right.svg" alt=""
+                                            data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                            style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                            <a href="demo-business-consulting-3-services-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                            <a href="demo-business-consulting-3-services-detail.html"
+                                class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                                 <div class="card box-shadow-4">
                                     <div class="card-img-top position-relative overlay overlay-show">
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Cost Transformation</h4>
+                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Cost
+                                                Transformation</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26"
+                                                    src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}"
+                                                    alt="" data-icon
+                                                    data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                                    style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-4.jpg') }}" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-4.jpg') }}"
+                                            class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
+                                            hendrerit. </p>
+                                        <img width="50" height="50" class="w-auto"
+                                            src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
+                                            alt="" data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                            style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                            <a href="demo-business-consulting-3-services-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                            <a href="demo-business-consulting-3-services-detail.html"
+                                class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                                 <div class="card box-shadow-4">
                                     <div class="card-img-top position-relative overlay overlay-show">
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Digital Marketing</h4>
+                                            <h4 class="font-weight-semibold text-color-light text-6 mb-1">Digital Marketing
+                                            </h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26"
+                                                    src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}"
+                                                    alt="" data-icon
+                                                    data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                                    style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-5.jpg') }}" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-5.jpg') }}"
+                                            class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
+                                            hendrerit. </p>
+                                        <img width="50" height="50" class="w-auto"
+                                            src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
+                                            alt="" data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                            style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-9 col-md-6 col-lg-4">
-                            <a href="demo-business-consulting-3-services-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                            <a href="demo-business-consulting-3-services-detail.html"
+                                class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                                 <div class="card box-shadow-4">
                                     <div class="card-img-top position-relative overlay overlay-show">
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Automation</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="{{asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg')}}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26"
+                                                    src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}"
+                                                    alt="" data-icon
+                                                    data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                                    style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-6.jpg')}}" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-6.jpg') }}"
+                                            class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="img/demos/business-consulting-3/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
+                                            hendrerit. </p>
+                                        <img width="50" height="50" class="w-auto"
+                                            src="img/demos/business-consulting-3/icons/arrow-right.svg" alt=""
+                                            data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                            style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
@@ -453,7 +531,9 @@
                     </div>
                     <div class="row">
                         <div class="col text-center">
-                            <a href="demo-business-consulting-3-services.html" class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
+                            <a href="demo-business-consulting-3-services.html"
+                                class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5"
+                                data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                                 <span>All Services</span>
                             </a>
                         </div>
@@ -471,19 +551,21 @@
                 </div>
                 <div class="position-absolute top-0 left-0 h-100 d-none d-lg-block overlay overlay-show overlay-color-primary"
                     data-plugin-parallax data-plugin-options="{'speed': 1.5}"
-                    data-image-src="{{ asset('assets/img/demos/business-consulting-3/parallax/parallax-1.jpg')}}" style="width: 40%;"></div>
+                    data-image-src="{{ asset('assets/img/demos/business-consulting-3/parallax/parallax-1.jpg') }}"
+                    style="width: 40%;"></div>
                 <div class="container position-relative z-index-3 pt-5 mt-5">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <h2 class="custom-text-background custom-big-font-size-1 text-15 font-weight-bold float-end clearfix line-height-1 lazyload pe-xl-5 me-3 mb-0 d-none d-lg-block"
-                                data-bg-src="{{ asset('assets/img/demos/business-consulting-3/backgrounds/text-background-2.jpg')}}"
+                            <h2 class="custom-text-background custom-big-font-size-1 text-9 font-weight-bold float-end clearfix line-height-1 lazyload pe-xl-5 me-3 mb-0 d-none d-lg-block"
+                                data-bg-src="{{ asset('assets/img/demos/business-consulting-3/backgrounds/text-background-2.jpg') }}"
                                 data-plugin-float-element
                                 data-plugin-options="{'startPos': 'top', 'speed': 0.6, 'transition': true, 'horizontal': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-                                BENEFITS</h2>
+                                BENEFÍCIOS
+                            </h2>
                         </div>
                         <div class="col-lg-6">
                             <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation"
-                                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">WHY US</h2>
+                                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">PORQUÊ NÓS?</h2>
                             <h3 class="text-9 line-height-3 text-transform-none font-weight-medium text-color-light ls-0 mb-3 pb-1 appear-animation"
                                 data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Learn Here The
                                 Main Reasons Why You Should Choose Us</h3>
@@ -534,16 +616,16 @@
                             </p>
                             <div class="row justify-content-center my-5">
                                 <div class="col-8 text-center col-md-4">
-                                    <img src="{{ asset('assets/img/logos/google1.png')}}" class="img-fluid hover-effect-3"
-                                        alt="" />
+                                    <img src="{{ asset('assets/img/logos/google1.png') }}"
+                                        class="img-fluid hover-effect-3" alt="" />
                                 </div>
                                 <div class="col-8 text-center col-md-4 my-3 my-md-0">
-                                    <img src="{{ asset('/assets/img/logos/google1.png')}}" class="img-fluid hover-effect-3"
-                                        alt="" />
+                                    <img src="{{ asset('/assets/img/logos/google1.png') }}"
+                                        class="img-fluid hover-effect-3" alt="" />
                                 </div>
                                 <div class="col-8 text-center col-md-4">
-                                    <img src="{{ asset('/assets/img/logos/google1.png')}}" class="img-fluid hover-effect-3"
-                                        alt="" />
+                                    <img src="{{ asset('/assets/img/logos/google1.png') }}"
+                                        class="img-fluid hover-effect-3" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -554,8 +636,8 @@
                                     <div
                                         class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
                                         <div class="testimonial-author">
-                                            <img src="{{ asset('assets/img/clients/client-1.jpg')}}" class="img-fluid rounded-circle mb-0"
-                                                alt="" />
+                                            <img src="{{ asset('assets/img/clients/client-1.jpg') }}"
+                                                class="img-fluid rounded-circle mb-0" alt="" />
                                         </div>
                                         <blockquote>
                                             <p class="text-color-dark text-4 line-height-5 mb-0">
@@ -577,8 +659,8 @@
                                     <div
                                         class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
                                         <div class="testimonial-author">
-                                            <img src="{{ asset('assets/img/clients/client-1.jpg')}}" class="img-fluid rounded-circle mb-0"
-                                                alt="" />
+                                            <img src="{{ asset('assets/img/clients/client-1.jpg') }}"
+                                                class="img-fluid rounded-circle mb-0" alt="" />
                                         </div>
                                         <blockquote>
                                             <p class="text-color-dark text-4 line-height-5 mb-0">

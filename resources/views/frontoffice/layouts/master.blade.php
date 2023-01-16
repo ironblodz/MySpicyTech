@@ -11,7 +11,7 @@
     <meta name="keywords" content="WebSite Template">
     <meta name="description" content="SpicyTech - Criação de soluções web">
     <meta name="author" content="João Peres and Fábio Joaninho">
-    <meta http-equiv="refresh" content="30">
+    <meta http-equiv="refresh" content="300">
     <meta property="og:type" content="website">
     <meta property="og:title" content="SpicyTech">
     <meta property="og:description" content="Webdesign, Websites, SEO, Marketing">
@@ -25,7 +25,9 @@
 
     <!-- Web Fonts  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+    <link id="googleFonts"
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap"
+        rel="stylesheet" type="text/css">
     <link id="googleFonts"
         href="https://fonts.googleapis.com/css?family=family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700,800,900&display=swap"
         rel="stylesheet" type="text/css">
@@ -47,9 +49,9 @@
 
 
     <!-- Demo CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-business-consulting-3.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-business-consulting-3.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-digital-agency-2.css') }}">
-    
+
 
     <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="{{ asset('assets/css/skins/skin-digital-agency-2.css') }}">
@@ -62,21 +64,23 @@
     <!-- Head Libs -->
     <script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
 
-	</head>
-    <body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}"
-	data-plugin-cursor-effect data-plugin-options="{'size': 'normal'}">
+</head>
 
-        <!-- ===== PRE LOADER ===== -->
-        <div class="loading-overlay">
-            <div class="bounce-loader">
-                <div class="cssload-float-bars-container">
-                    <ul class="cssload-float-bars-flex-container">
-                        <li><span class="cssload-float-bars-loading"></span></li>
-                    </div>
-                </div>
+<body class="loading-overlay-showing" data-loading-overlay
+    data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}" data-plugin-cursor-effect
+    data-plugin-options="{'size': 'normal'}">
 
+    <!-- ===== PRE LOADER ===== -->
+    <div class="loading-overlay">
+        <div class="bounce-loader">
+            <div class="cssload-float-bars-container">
+                <ul class="cssload-float-bars-flex-container">
+                    <li><span class="cssload-float-bars-loading"></span></li>
             </div>
         </div>
+
+    </div>
+    </div>
     </div>
     </div>
 
@@ -93,7 +97,7 @@
     <script src="{{ asset('assets/vendor/jquery.validation/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/plugins/js/plugins.js') }}"></script>
     <script src="{{ asset('assets/vendor/particles/particles.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/plugins/js/plugins.min.js')}}"></script>
+    <script src="{{ asset('assets/vendor/plugins/js/plugins.min.js') }}"></script>
 
     <!-- Theme Base, Components and Settings -->
     <script src="{{ asset('assets/js/theme.js') }}"></script>
@@ -108,7 +112,7 @@
     <script src="{{ asset('assets/js/theme.init.js') }}"></script>
 
     <!-- Head Libs -->
-	<script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
 
 
     <!-- Google Recaptcha -->

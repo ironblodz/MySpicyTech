@@ -1277,6 +1277,7 @@ html .overlay-color-light:not(.no-skin):before {
     color: #326fa8;
 }
 
+/*
 .btn-link:hover {
     color: #ea2955;
 }
@@ -1284,13 +1285,14 @@ html .overlay-color-light:not(.no-skin):before {
 .btn-link:active {
     color: #cd143e;
 }
+*/
 
 html .btn-primary {
     background-color: #326fa8;
     border-color: #326fa8 #326fa8 #b51237;
     color: #fff;
     --color: #326fa8;
-    --hover: #eb355e;
+    /* --hover: #eb355e; */
     --disabled: #326fa8;
     --active: #c1133a;
 }
