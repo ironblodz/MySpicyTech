@@ -20,7 +20,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
     <!-- Web Fonts  -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link id="googleFonts"
         href="https://fonts.googleapis.com/css?family=family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700,800,900&display=swap"
@@ -55,21 +54,8 @@
     <!-- Head Libs -->
     <script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
 
-<<<<<<< Updated upstream
-
-</head>
-
-<body class="loading-overlay-showing" data-loading-overlay
-    data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}">
-    <!-- ===== PRE LOADER ===== -->
-    <div class="loading-overlay">
-        <div class="bounce-loader">
-            <div class="cssload-float-bars-container">
-                <ul class="cssload-float-bars-flex-container">
-                    <li><span class="cssload-float-bars-loading"></span></li>
-=======
 	</head>
-	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}" 
+<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}" 
 	data-plugin-cursor-effect data-plugin-options="{'size': 'normal'}">
 
         <!-- ===== PRE LOADER ===== -->
@@ -80,7 +66,7 @@
                         <li><span class="cssload-float-bars-loading"></span></li>
                     </div>
                 </div>
->>>>>>> Stashed changes
+
             </div>
         </div>
     </div>
@@ -105,11 +91,16 @@
 
     <!-- Current Page Vendor and Views -->
     <script src="{{ asset('assets/js/views/view.contact.js') }}"></script>
+
     <!-- Theme Custom -->
     <script src="{{ asset('assets/js/custom.js') }}"></script>
 
     <!-- Theme Initialization Files -->
     <script src="{{ asset('assets/js/theme.init.js') }}"></script>
+
+    <!-- Head Libs -->
+	<script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
+
 
     <!-- Google Recaptcha -->
     <script id="google-recaptcha-v3"
@@ -118,6 +109,7 @@
     <!-- Examples -->
     <script src="{{ asset('assets/js/examples/examples.particles.js') }}"></script>
 
+    
 
 
 </body>

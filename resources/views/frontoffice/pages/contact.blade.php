@@ -1,23 +1,23 @@
 @extends('frontoffice.layouts.master')
-
 @section('content')
     <div role="main" class="main">
 
-        <section class="page-header page-header-modern page-header-background bg-color-dark p-relative z-index-1 lazyload" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 53, 'stickySetTop': '-53px'}">
-            <span class="custom-circle custom-circle-1 bg-color-light custom-circle-blur appear-animation"
-                data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400"></span>
-            <span class="custom-circle custom-circle-2 bg-color-primary appear-animation" data-appear-animation="zoomIn"
-                data-appear-animation-delay="500"></span>
-            <span class="custom-circle custom-circle-3 bg-color-primary appear-animation" data-appear-animation="zoomIn"
-                data-appear-animation-delay="600"></span>
+        <section
+            class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7"
+            style=" background-image: url(/assets/img/demos/digital-agency-2/contact-us/contactus.jpeg); background-size: cover; background-position: center;">
             <div class="container">
                 <div class="row mt-5">
-                    <div class="col">
-                        <ul class="breadcrumb breadcrumb-light custom-title-with-icon-primary d-block">
-                            <li><a href="#">Home</a></li>
-                            <li class="active">Contate-nos</li>
+                    <div class="col-md-12 align-self-center p-static order-2 text-center">
+                        <h1 class="text-9 font-weight-bold">Contactos</h1>
+                        <span class="sub-title">Não economize tempo com as suas dúvidas, fale connosco!</span>
+                    </div>
+                    <div class="col-md-12 align-self-center order-1">
+                        <ul class="breadcrumb breadcrumb-light d-block text-center">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="active">Contactos</li>
                         </ul>
-                        <h1 class="custom-text-10 font-weight-bold">Contate-nos</h1>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h4 class="d-block w-100 text-color-dark custom-text-10 font-weight-bold text-center mb-4 pb-3 appear-animation"
-                            data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">Estamos presentes, perto de si<span class="text-color-primary">.</span></h4>
+                            data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">Estamos presentes,
+                            perto de si<span class="text-color-primary">.</span></h4>
                         <div class="d-flex flex-row flex-wrap align-items-center justify-content-center mb-4 pb-3">
                             <span
                                 class="d-flex flex-column flex-md-row text-center text-md-start px-5 px-md-0 mb-4 mb-md-0 align-items-center custom-text-5 font-weight-medium appear-animation"
@@ -40,12 +41,14 @@
                             <span
                                 class="d-flex flex-column flex-md-row text-center text-md-start px-5 px-md-0 align-items-center custom-text-5 font-weight-medium appear-animation"
                                 data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600"><i
-                                    class="far fa-clock text-color-primary text-4 ms-md-4 me-md-2"></i>Aberto de segunda a sabádo, desde 9:00 às 18:00
+                                    class="far fa-clock text-color-primary text-4 ms-md-4 me-md-2"></i>Aberto de segunda a
+                                sabádo, desde 9:00 às 18:00
                                 / Domingo - Fechado</span>
                         </div>
                         <p class="custom-text-4 text-center appear-animation" data-appear-animation="fadeInRightShorter"
                             data-appear-animation-delay="800">
-                            Forneça alguns detalhes sobre a natureza de sua solicitação ou pergunta para que possamos fornecer a melhor resposta possível.</p>
+                            Forneça alguns detalhes sobre a natureza de sua solicitação ou pergunta para que possamos
+                            fornecer a melhor resposta possível.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -86,15 +89,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-9 order-1 order-lg-2">
 
-                        <div class="overflow-hidden mb-1">
-                            <h2 class="font-weight-normal text-7 mb-0"><strong class="font-weight-extra-bold">
-                                    Contate-nos</strong> </h2>
+                    {{-- Contactos --}}
+                    <div class="col-xl-12 order-1 order-lg-2 mt-5">
+
+                        <div class="overflow-hidden mb-1 text-center">
+                            <h2 class="font-weight-normal text-9 mb-0">
+                                <strong class="font-weight-extra-bold">
+                                    Contacte-nos
+                                </strong>
+                            </h2>
                         </div>
-                        <div class="overflow-hidden mb-4 pb-3">
+                        <div class="overflow-hidden mb-4 pb-3 text-center">
                             <p class="mb-0">
-                                Sinta-se à vontade para pedir detalhes, não economize nenhuma pergunta!</p>
+                                Sinta-se à vontade para pedir detalhes, não economize nenhuma pergunta!
+                            </p>
                         </div>
 
                         <form class="contact-form-recaptcha-v3" action="{{ route('create.contact') }}" method="POST">
@@ -152,8 +161,8 @@
                                     @endif
                                 </div>
                                 <div class="form-group col-lg-6">
-                                    <label
-                                        class="form-label mb-1 text-2 {{ $errors->has('email') ? 'error' : '' }}"> O seu Email</label>
+                                    <label class="form-label mb-1 text-2 {{ $errors->has('email') ? 'error' : '' }}"> O seu
+                                        Email</label>
                                     <input type="email" value=""
                                         data-msg-required="Please enter your email address."
                                         data-msg-email="Please enter a valid email address." maxlength="100"
@@ -219,22 +228,24 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <p class="mb-2 text-color-tertiary custom-text-7 custom-title-with-icon custom-title-with-icon-light appear-animation"
-                            data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200"> Contate-nos</p>
+                            data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
+                            Contate-nos
+                        </p>
                         <h4 class="text-color-light font-weight-bold custom-text-10 appear-animation"
                             data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
 
                             Transforme suas ideias
                             <br />
                             em negócios online<br>
-
-
                         </h4>
                     </div>
                     <div
                         class="col-lg-4 d-flex align-items-center justify-content-start justify-content-lg-end mt-5 mt-lg-0">
                         <a herf="#"
                             class="btn btn-outline custom-btn-outline btn-light border-white rounded-0 px-4 py-3 text-color-light text-color-hover-dark bg-color-hover-light custom-text-6 line-height-6 font-weight-semibold custom-btn-with-arrow appear-animation"
-                            data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="600">Converse connosco!</a>
+                            data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="600">
+                            Converse connosco!
+                        </a>
                     </div>
                 </div>
             </div>
