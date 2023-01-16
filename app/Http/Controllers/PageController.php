@@ -22,4 +22,8 @@ class PageController extends Controller
         return view('frontoffice.pages.login');
     }
 
+    public function teste(){
+        return view('frontoffice.pages.teste');
+    }
+
 }

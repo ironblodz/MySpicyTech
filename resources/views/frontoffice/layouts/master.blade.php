@@ -21,6 +21,7 @@
 
     <!-- Web Fonts  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
     <link id="googleFonts"
         href="https://fonts.googleapis.com/css?family=family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700,800,900&display=swap"
         rel="stylesheet" type="text/css">
@@ -43,9 +44,11 @@
 
     <!-- Demo CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-digital-agency-2.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-business-consulting-3.css')}}">
 
     <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="{{ asset('assets/css/skins/skin-digital-agency-2.css') }}">
+    <link id="skinCSS" rel="stylesheet" href="{{ asset('assets/css/skins/skin-business-consulting-3.css') }}">
 
 
     <!-- Theme Custom CSS -->
@@ -55,7 +58,7 @@
     <script src="{{ asset('assets/vendor/modernizr/modernizr.min.js') }}"></script>
 
 	</head>
-<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}" 
+    <body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}"
 	data-plugin-cursor-effect data-plugin-options="{'size': 'normal'}">
 
         <!-- ===== PRE LOADER ===== -->
@@ -85,6 +88,7 @@
     <script src="{{ asset('assets/vendor/jquery.validation/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/plugins/js/plugins.js') }}"></script>
     <script src="{{ asset('assets/vendor/particles/particles.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/plugins/js/plugins.min.js')}}"></script>
 
     <!-- Theme Base, Components and Settings -->
     <script src="{{ asset('assets/js/theme.js') }}"></script>
@@ -109,7 +113,7 @@
     <!-- Examples -->
     <script src="{{ asset('assets/js/examples/examples.particles.js') }}"></script>
 
-    
+
 
 
 </body>

@@ -742,7 +742,6 @@ html.mobile-menu-opened.sticky-header-active
 }
 
 .page-header.page-header-modern.page-header-background .breadcrumb:before {
-    content: "\E801";
     font-family: "Fontello";
     font-size: 15px;
     display: block;
