@@ -47,8 +47,9 @@
 
 
     <!-- Demo CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-digital-agency-2.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-business-consulting-3.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/demos/demo-digital-agency-2.css') }}">
+    
 
     <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="{{ asset('assets/css/skins/skin-digital-agency-2.css') }}">

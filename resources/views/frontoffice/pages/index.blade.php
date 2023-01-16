@@ -343,14 +343,14 @@
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Sales & Marketing</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="img/demos/business-consulting-3/services/services-1.jpg" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-1.jpg') }}" class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
                                         <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="img/demos/business-consulting-3/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
@@ -362,14 +362,14 @@
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Strategic Planning</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="img/demos/business-consulting-3/services/services-2.jpg" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-2.jpg') }}" class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
                                         <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="img/demos/business-consulting-3/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
@@ -381,10 +381,10 @@
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Operations</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="img/demos/business-consulting-3/services/services-3.jpg" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-3.jpg') }}" class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
                                         <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
@@ -400,14 +400,14 @@
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Cost Transformation</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="img/demos/business-consulting-3/services/services-4.jpg" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-4.jpg') }}" class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
                                         <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="img/demos/business-consulting-3/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
@@ -419,14 +419,14 @@
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Digital Marketing</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26" src="{{ asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="img/demos/business-consulting-3/services/services-5.jpg" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-5.jpg') }}" class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
                                         <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
-                                        <img width="50" height="50" class="w-auto" src="img/demos/business-consulting-3/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
+                                        <img width="50" height="50" class="w-auto" src="{{ asset('assets/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 50px;" />
                                     </div>
                                 </div>
                             </a>
@@ -438,10 +438,10 @@
                                         <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                             <h4 class="font-weight-semibold text-color-light text-6 mb-1">Automation</h4>
                                             <div class="custom-crooked-line">
-                                                <img width="154" height="26" src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+                                                <img width="154" height="26" src="{{asset('assets/img/demos/business-consulting-3/icons/infinite-crooked-line.svg')}}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="img/demos/business-consulting-3/services/services-6.jpg" class="img-fluid" alt="Card Image" />
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/services-6.jpg')}}" class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
                                         <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse hendrerit. </p>
@@ -471,12 +471,12 @@
                 </div>
                 <div class="position-absolute top-0 left-0 h-100 d-none d-lg-block overlay overlay-show overlay-color-primary"
                     data-plugin-parallax data-plugin-options="{'speed': 1.5}"
-                    data-image-src="img/demos/business-consulting-3/parallax/parallax-1.jpg" style="width: 40%;"></div>
+                    data-image-src="{{ asset('assets/img/demos/business-consulting-3/parallax/parallax-1.jpg')}}" style="width: 40%;"></div>
                 <div class="container position-relative z-index-3 pt-5 mt-5">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <h2 class="custom-text-background custom-big-font-size-1 text-15 font-weight-bold float-end clearfix line-height-1 lazyload pe-xl-5 me-3 mb-0 d-none d-lg-block"
-                                data-bg-src="img/demos/business-consulting-3/backgrounds/text-background-2.jpg"
+                                data-bg-src="{{ asset('assets/img/demos/business-consulting-3/backgrounds/text-background-2.jpg')}}"
                                 data-plugin-float-element
                                 data-plugin-options="{'startPos': 'top', 'speed': 0.6, 'transition': true, 'horizontal': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
                                 BENEFITS</h2>
@@ -534,15 +534,15 @@
                             </p>
                             <div class="row justify-content-center my-5">
                                 <div class="col-8 text-center col-md-4">
-                                    <img src="/assets/img/logos/google1.png" class="img-fluid hover-effect-3"
+                                    <img src="{{ asset('assets/img/logos/google1.png')}}" class="img-fluid hover-effect-3"
                                         alt="" />
                                 </div>
                                 <div class="col-8 text-center col-md-4 my-3 my-md-0">
-                                    <img src="/assets/img/logos/google1.png" class="img-fluid hover-effect-3"
+                                    <img src="{{ asset('/assets/img/logos/google1.png')}}" class="img-fluid hover-effect-3"
                                         alt="" />
                                 </div>
                                 <div class="col-8 text-center col-md-4">
-                                    <img src="/assets/img/logos/google1.png" class="img-fluid hover-effect-3"
+                                    <img src="{{ asset('/assets/img/logos/google1.png')}}" class="img-fluid hover-effect-3"
                                         alt="" />
                                 </div>
                             </div>
@@ -554,7 +554,7 @@
                                     <div
                                         class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
                                         <div class="testimonial-author">
-                                            <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle mb-0"
+                                            <img src="{{ asset('assets/img/clients/client-1.jpg')}}" class="img-fluid rounded-circle mb-0"
                                                 alt="" />
                                         </div>
                                         <blockquote>
@@ -577,7 +577,7 @@
                                     <div
                                         class="testimonial testimonial-style-2 testimonial-with-quotes testimonial-quotes-dark testimonial-remove-right-quote ps-md-4 mb-0">
                                         <div class="testimonial-author">
-                                            <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle mb-0"
+                                            <img src="{{ asset('assets/img/clients/client-1.jpg')}}" class="img-fluid rounded-circle mb-0"
                                                 alt="" />
                                         </div>
                                         <blockquote>
