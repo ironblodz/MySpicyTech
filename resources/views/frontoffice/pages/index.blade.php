@@ -17,8 +17,7 @@
                                 </h2>
                                 <h1 class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-2 mb-4 appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850">
-                                    Criação de soluções web
-                                    <span class="text-style">S</span>picy<span class="text-style">T</span>ecH.
+                                    Impulsionando negócios com o poder da tecnologia.
                                 </h1>
                                 <a href="#intro" data-hash data-hash-offset="0" data-hash-offset-lg="100"
                                     class="btn btn-outline custom-btn-outline btn-primary rounded-md font-weight-semibold text-color-light bg-color-hover-primary custom-btn-with-arrow text-4 btn-px-4 py-3 mt-2 appear-animation"
@@ -103,13 +102,16 @@
                             </h4>
                             <p class="custom-font-tertiary custom-text-6 line-height-6 font-weight-medium appear-animation"
                                 data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tellus ante. Nam suscipit
-                                urna risus.
+                                A SpicyTecH baseia-se em três pilares fundamentais: Inovaçao, ..
                             </p>
                             <p class="custom-text-3 appear-animation" data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="400">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi
-                                euismod, sed porta est consectetur.
+                                Acreditamos que a inovação é essencial para o sucesso de qualquer empresa no mundo.
+                            </p>
+                            <p class="custom-text-3 appear-animation" data-appear-animation="fadeInRightShorter"
+                                data-appear-animation-delay="600">
+                                Por isso, estamos sempre á procura de novas formas de ajudar os nossos clientes a
+                                destacarem-se na web.
                             </p>
                             <a herf="demo-digital-agency-2-about-us.html"
                                 class="btn btn-outline custom-btn-outline btn-light border-0 rounded-0 text-color-primary custom-text-5 font-weight-bold custom-btn-with-arrow bg-transparent p-0 appear-animation"
@@ -139,15 +141,15 @@
                             <ul class="custom-list list-unstyled ms-xl-2 ps-xl-1">
                                 <li class="font-weight-medium custom-text-4 mb-4 appear-animation"
                                     data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
-                                    Pellentesque ultricies nibh lorem ipsum
+                                    INOVAÇÃO
                                 </li>
                                 <li class="font-weight-medium custom-text-4 mb-4 appear-animation"
                                     data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-                                    Apoio ao cliente 24h
+                                    QUALIDADE
                                 </li>
                                 <li class="font-weight-medium custom-text-4 appear-animation"
                                     data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
-                                    Pellentesque ultricies nibh
+                                    EFICIÊNCIA
                                 </li>
                             </ul>
                         </div>
@@ -540,15 +542,15 @@
                             </p>
                             <div class="row justify-content-center my-5">
                                 <div class="col-8 text-center col-md-4">
-                                    <img src="{{ asset('assets/img/logos/google1.png') }}"
+                                    <img src="{{ asset('assets/img/logos/katrina.png') }}"
                                         class="img-fluid hover-effect-3" alt="" />
                                 </div>
                                 <div class="col-8 text-center col-md-4 my-3 my-md-0">
-                                    <img src="{{ asset('/assets/img/logos/google1.png') }}"
+                                    <img src="{{ asset('/assets/img/logos/jorparts.png') }}"
                                         class="img-fluid hover-effect-3" alt="" />
                                 </div>
                                 <div class="col-8 text-center col-md-4">
-                                    <img src="{{ asset('/assets/img/logos/google1.png') }}"
+                                    <img src="{{ asset('/assets/img/logos/coliworld.png') }}"
                                         class="img-fluid hover-effect-3" alt="" />
                                 </div>
                             </div>
