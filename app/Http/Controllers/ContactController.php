@@ -65,7 +65,7 @@ class ContactController extends Controller
             if($responseData->success) {
 
                 //Passo 1 - Digite seu endereço de e-mail abaixo.
-                $email = 'exemplodeemail@gmail.com';
+                $email = 'naylestorm12@gmail.com';
 
                 //Se o e-mail não estiver a funcionar, altere a opção de depuração para 2 | $depuração = 2;
                 $debug = 0;
@@ -186,20 +186,6 @@ class ContactController extends Controller
         //Guardar dados na base dados
         Contact::create($request->all());
 
-        //Enviar email através do mailtrap
-        //Método request para validar cada campo
-        \Mail::send('mail', array(
-            'name' => $request->get('name'),
-            'surname' => $request-get('surname'),
-            'email' => $request->get('email'),
-            'phone' => $request->get('phone'),
-            'subject' => $request->get('subject'),
-            'message' => $request->get('message'),
-        ), function ($message) use ($request){
-            $message->from($request->email);
-            $message-to('naylestorm12@gmail.com', 'Admin'->subject($request->get('subject')));
-        });
-        return back()->with('success', 'O formulário foi enviado com sucesso');
         return view('frontoffice.pages.contact');
     }
 
