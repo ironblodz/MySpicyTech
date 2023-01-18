@@ -157,61 +157,174 @@
             </div>
         </section>
 
-        <div class="container appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
-            <div class="row pt-5 pb-4 my-5">
-                <div class="col-md-6 order-2 order-md-1 text-center text-md-start">
-                    <div class="owl-carousel owl-theme nav-style-1 nav-center-images-only stage-margin mb-0"
-                        data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 1}, '992': {'items': 2}, '1200': {'items': 2}}, 'margin': 25, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
-                        <div>
-                            <img class="img-fluid rounded-0 mb-4" src="img/team/team-1.jpg" alt="" />
-                            <h3 class="font-weight-bold text-color-dark text-4 mb-0">
-                                John Doe
-                            </h3>
-                            <p class="text-2 mb-0">CEO</p>
+        <div class="container pt-3 pb-5 mt-4 mb-5">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="text-9 text-lg-5 text-xl-9 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation"
+                        data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
+                        Os melhores profissionais para o teu negócio.
+                    </h2>
+                    <p class="text-3-5 mb-5 appear-animation" data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="500">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Vestibulum luctus
+                        laoreet lacinia. Maecenas luctus arcu ut orci lacinia ultrices.
+                    </p>
+                </div>
+            </div>
+            <div id="john" class="row mb-5 appear-animation" data-appear-animation="fadeInUpShorter"
+                data-appear-animation-delay="750">
+                <div class="col">
+                    <div class="d-flex flex-wrap bg-light box-shadow-4 custom-link-hover-effects">
+                        <div class="position-relative lazyload col-12 col-md-4"
+                            data-bg-src="img/demos/business-consulting-3/team/team-1.jpg"
+                            style="background-position: center; background-size: cover; min-height: 320px;">
+                            <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
+                                <div class="custom-crooked-line">
+                                    <img width="154" height="26"
+                                        src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg"
+                                        alt="" data-icon
+                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                        style="width: 154px;" />
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <img class="img-fluid rounded-0 mb-4" src="img/team/team-2.jpg" alt="" />
-                            <h3 class="font-weight-bold text-color-dark text-4 mb-0">
-                                Jessica Doe
-                            </h3>
-                            <p class="text-2 mb-0">CEO</p>
-                        </div>
-                        <div>
-                            <img class="img-fluid rounded-0 mb-4" src="img/team/team-3.jpg" alt="" />
-                            <h3 class="font-weight-bold text-color-dark text-4 mb-0">
-                                Chris Doe
-                            </h3>
-                            <p class="text-2 mb-0">DEVELOPER</p>
-                        </div>
-                        <div>
-                            <img class="img-fluid rounded-0 mb-4" src="img/team/team-4.jpg" alt="" />
-                            <h3 class="font-weight-bold text-color-dark text-4 mb-0">
-                                Julie Doe
-                            </h3>
-                            <p class="text-2 mb-0">SEO ANALYST</p>
-                        </div>
-                        <div>
-                            <img class="img-fluid rounded-0 mb-4" src="img/team/team-5.jpg" alt="" />
-                            <h3 class="font-weight-bold text-color-dark text-4 mb-0">
-                                Robert Doe
-                            </h3>
-                            <p class="text-2 mb-0">DESIGNER</p>
+                        <div class="col-md-8 p-5">
+                            <div class="d-flex justify-content-between justify-content-md-start mb-4">
+                                <div>
+                                    <h2 class="font-weight-semibold text-6 line-height-1 mb-0">Fábio Joaninho</h2>
+                                    <p class="text-3-5 mb-0">CEO and Founder</p>
+                                </div>
+                                <div class="bg-color-grey ms-4 me-1 d-none d-md-block" style="width: 8px;"></div>
+                                <ul
+                                    class="social-icons social-icons-clean social-icons-icon-dark social-icons-big m-0 ms-lg-2">
+                                    <li class="social-icons-instagram">
+                                        <a href="http://www.instagram.com/" target="_blank" class="text-4"
+                                            title="Instagram" data-cursor-effect-hover="fit">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-twitter">
+                                        <a href="http://www.twitter.com/" target="_blank" class="text-4" title="Twitter"
+                                            data-cursor-effect-hover="fit">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-facebook">
+                                        <a href="http://www.facebook.com/" target="_blank" class="text-4"
+                                            title="Facebook" data-cursor-effect-hover="fit">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="custom-read-more-style-1" data-plugin-readmore
+                                data-plugin-options="{
+                                    'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
+                                    'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
+                                    'maxHeight': 160
+                                }">
+                                <p class="text-3-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                    vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit.
+                                </p>
+                                <p class="text-3-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                    vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Lorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Curabitur vulputate posuere tortor luctus
+                                    vulputate. Cras laoreet pretium blandit.
+                                </p>
+                                <p class="text-3-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                    vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit.
+                                </p>
+                                <div class="readmore-button-wrapper d-none">
+                                    <a href="#" class="text-decoration-none">
+                                        Ver mais
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 order-1 order-md-2 text-center text-md-start mb-5 mb-md-0">
-                    <h2 class="text-color-dark font-weight-normal text-6 mb-2 pb-1">
-                        Meet <strong class="font-weight-extra-bold">Our Team</strong>
-                    </h2>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit massa
-                        enim. Nullam id varius nunc.
-                    </p>
-                    <p class="mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Phasellus blandit massa enim. Nullam id varius nunc. Vivamus
-                        bibendum magna ex, et faucibus lacus venenatis eget.
-                    </p>
+            </div>
+            <div id="robert" class="row mb-5 appear-animation" data-appear-animation="fadeInUpShorter"
+                data-appear-animation-delay="250">
+                <div class="col">
+                    <div class="d-flex flex-wrap bg-light box-shadow-4 custom-link-hover-effects">
+                        <div class="position-relative lazyload col-12 col-md-4"
+                            data-bg-src="img/demos/business-consulting-3/team/team-2.jpg"
+                            style="background-position: center; background-size: cover; min-height: 320px;">
+                            <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
+                                <div class="custom-crooked-line">
+                                    <img width="154" height="26"
+                                        src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg"
+                                        alt="" data-icon
+                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+                                        style="width: 154px;" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 p-5">
+                            <div class="d-flex justify-content-between justify-content-md-start mb-4">
+                                <div>
+                                    <h2 class="font-weight-semibold text-6 line-height-1 mb-0">João Peres</h2>
+                                    <p class="text-3-5 mb-0">CEO and Founder</p>
+                                </div>
+                                <div class="bg-color-grey ms-4 me-1 d-none d-md-block" style="width: 8px;"></div>
+                                <ul
+                                    class="social-icons social-icons-clean social-icons-icon-dark social-icons-big m-0 ms-lg-2">
+                                    <li class="social-icons-instagram">
+                                        <a href="http://www.instagram.com/" target="_blank" class="text-4"
+                                            title="Instagram" data-cursor-effect-hover="fit">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-twitter">
+                                        <a href="http://www.twitter.com/" target="_blank" class="text-4" title="Twitter"
+                                            data-cursor-effect-hover="fit">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons-facebook">
+                                        <a href="http://www.facebook.com/" target="_blank" class="text-4"
+                                            title="Facebook" data-cursor-effect-hover="fit">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="custom-read-more-style-1" data-plugin-readmore
+                                data-plugin-options="{
+                                    'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
+                                    'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
+                                    'maxHeight': 160
+                                }">
+                                <p class="text-3-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                    vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit.
+                                </p>
+                                <p class="text-3-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                    vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Lorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Curabitur vulputate posuere tortor luctus
+                                    vulputate. Cras laoreet pretium blandit.
+                                </p>
+                                <p class="text-3-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                    vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit.
+                                </p>
+                                <div class="readmore-button-wrapper d-none">
+                                    <a href="#" class="text-decoration-none">
+                                        View More
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
