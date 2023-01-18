@@ -106,13 +106,14 @@ class ContactController extends Controller
 
                     // Passo 2 (Opcional) - Caso não receba o e-mail, tente configurar os parâmetros abaixo:
 
-                    //$mail->IsSMTP();                                        // Configura o mailer para usar SMTP
-                    //$mail->Host = 'mail.yourserver.com';                    // Especificar servidor principal e de backup
-                    //$mail->SMTPAuth = true;                                  // Habilitar a autenticação SMTP
-                    //$mail->Username = 'user@example.com';                    // SMTP nome
-                    //$mail->Password = 'secret';                              // SMTP senha
-                    //$mail->SMTPSecure = 'tls';                               // Ativa a criptografia, 'ssl' também é aceito
-                    //$mail->Port = 587;   								       //Porta TCP para se conectar
+                    $mail = new PHPMailer();
+                    $mail->IsSMTP();                                        // Configura o mailer para usar SMTP
+                    $mail->Host = 'smtp.mailtrap.io';                    // Especificar servidor principal e de backup
+                    $mail->SMTPAuth = true;                                  // Habilitar a autenticação SMTP
+                    $mail->Username = 'aab39e36e2cf78';                    // SMTP nome
+                    $mail->Password = '020f5e85197700';                              // SMTP senha
+                    $mail->SMTPSecure = 'tls';                               // Ativa a criptografia, 'ssl' também é aceito
+                    $mail->Port = 2525;   								       //Porta TCP para se conectar
 
                     $mail->AddAddress($email);	 						       //Adicionar outro destinatário
 
@@ -151,7 +152,6 @@ class ContactController extends Controller
 
             } else {
                 $arrResult = array ('response'=>'error','errorMessage'=>'reCaptcha Error: Verifcation failed (no success). Please contact the website administrator.');
-                dd($arrResult);
                 echo json_encode($arrResult);
             }
 
