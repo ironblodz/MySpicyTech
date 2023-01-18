@@ -271,8 +271,9 @@
                                 </nav>
                             </div>
                             <a href="{{ route('frontoffice.login') }}"
-                                class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1 border-width-1 ms-3 me-2 d-block d-md-none d-xl-block anim-hover-translate-right-5px transition-2ms">Log
-                                in<i class="fas fa-arrow-right ms-2"></i></a>
+                                class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1 border-width-1 ms-3 me-2 d-block d-md-none d-xl-block anim-hover-translate-right-5px transition-2ms">
+                                Log in<i class="fas fa-arrow-right ms-2"></i>
+                            </a>
                             <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
                                 data-bs-target=".header-nav-main nav">
                                 <i class="fas fa-bars"></i>
