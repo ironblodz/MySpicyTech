@@ -26,4 +26,8 @@ class PageController extends Controller
         return view('frontoffice.pages.teste');
     }
 
+    public function faqs(){
+        return view('frontoffice.pages.faqs');
+    }
+
 }

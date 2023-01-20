@@ -41,6 +41,9 @@ Route::prefix('frontoffice')->group(function(){
     //Rota Pagina inicial Home Page
     Route::get('/teste', [App\Http\Controllers\PageController::class, 'teste'])->name('frontoffice.teste');
 
+    //Rota Pagina inicial Home Page
+    Route::get('/faqs', [App\Http\Controllers\PageController::class, 'faqs'])->name('frontoffice.faqs');
+
 });
 
 
