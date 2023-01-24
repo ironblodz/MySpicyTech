@@ -30,4 +30,8 @@ class PageController extends Controller
         return view('frontoffice.pages.faqs');
     }
 
+    public function recaptcha(){
+        return view('frontoffice.recaptcha.recaptcha-v3');
+    }
+
 }

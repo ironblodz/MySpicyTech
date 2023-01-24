@@ -106,7 +106,7 @@
                             </p>
                         </div>
 
-                        <form id="contactForm" class="contact-form-recaptcha-v3" action="{{ route('../recaptcha/recaptcha-v3.blade.php') }}"
+                        <form id="contactForm" class="contact-form-recaptcha-v3" action="{{ route('recaptcha-v3') }}"
                             method="POST">
                             <div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
                                 <strong>Success!</strong> Your message has been sent to us.

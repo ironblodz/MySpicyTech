@@ -31,7 +31,8 @@ Route::prefix('frontoffice')->group(function(){
     Route::get('/contact', [App\Http\Controllers\ContactController::class, 'create'])->name('create.contact');
     //Rota Página de Contacto para tratar da submissão do formulário
     Route::post('/contact', [App\Http\Controllers\ContactController::class, 'store'])->name('store.contact');
-    Route::post('/recaptcha-v3',[App\Http\Controllers\ContactController::class, 'create'])->name('create.contact');
+    //Rota para página do Recaptcha para tratar da submissão do formulário
+    Route::post('/recaptcha-v3',[App\Http\Controllers\PageController::class, 'recaptcha'])->name('recaptcha-v3');
 
     //Rota Pagina inicial Home Page
     Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->name('frontoffice.about');

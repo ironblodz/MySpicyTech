@@ -28,7 +28,7 @@ class ContactController extends Controller
     public function create()
     {
 
-        return view('frontoffice.pages.contact','frontoffice.recaptcha.recaptcha-v3');
+        return view('frontoffice.pages.contact');
     }
 
     /**
