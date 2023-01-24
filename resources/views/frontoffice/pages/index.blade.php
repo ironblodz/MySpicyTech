@@ -280,7 +280,7 @@
                                                     style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/web-developer.jpeg') }}"
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/fotografia.jpeg') }}"
                                             class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
@@ -314,7 +314,7 @@
                                                     style="width: 154px;" />
                                             </div>
                                         </div>
-                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/logo-design.jpeg') }}"
+                                        <img src="{{ asset('assets/img/demos/business-consulting-3/services/fotografia.jpeg') }}"
                                             class="img-fluid" alt="Card Image" />
                                     </div>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
